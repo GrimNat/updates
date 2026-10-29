@@ -2,6 +2,18 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.8.0 (2026-10-29)
+- Dossiers (new toolbar button): your own file on each person, like a records database. Clan, rank, profession, who they work for, race, base, plus lists of other names, disguises you've seen, restrung armor looks, ships, shops and notes. You fill it in as you work things out; nothing fills itself in.
+- Every entry remembers when you wrote it and where you were, and is tagged IC (learned in play), PUB (public) or OOC (don't use it in character). Changing someone's clan keeps the old one as history.
+- Clues next to what you wrote: where the Ship DB saw each of their ships (which pads), the shop catalog's stock, and what your recordings hold (lines by or about them, also under each disguise, memory notes, thoughts).
+- Ship DB lookups work now: it reads the real locateship answer (owner, dock, planet), waits for each lookup to finish before starting the next (sending the next one early cut every lookup off), and tries again after 'no record found' or an interruption. Ships whose earlier lookups got nothing are looked up again by 'shipdb locate'.
+- Search finds people by any ship, disguise, name or note. 'dossier <name> ship = <ship>' adds things from the command line; Journal person pages get an 'open dossier' link. Dossiers stay on your PC: they're never shared.
+
+## v1.7.1 (2026-10-29)
+- Fixed: the Utilities button didn't open on screens where the toolbar is narrow (the version number sat on top of it). The buttons now shrink to fit.
+- Fixed: a long hail could get the next game message stuck onto its end in the hail window (like 'You are too close to ... to make the jump to lightspeed!').
+- Fixed: toolbar buttons often needed two or three clicks. A click while a panel is still sliding now waits its turn instead of being ignored, and the button lights up the moment you click it.
+
 ## v1.7.0 (2026-10-29)
 - Ark Run: choose what to gather (crate, wireless, test results, crystal chips, frozen organisms, the tunnel credit, Arkanian diamonds, blue diamonds, lommite) in Utilities > Ark Run or with 'arkrun gather <kind> on|off'. Start takes the shortest loop for what's switched on.
 - Ark Run: type your locker number in the box on the Ark Run page (or 'arkrun locker <n>'). Each player sets their own; too-heavy pickups go there and the pickaxe comes from it.
