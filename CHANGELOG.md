@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.4.0 (2026-10-29)
+- Themes: framed map, chat, bottom and ship bars plus matching toolbar colours, one look per class (combat, piloting, engineering, bounty hunting, smuggling, leadership, espionage, slicer, medical, science, force) or the plain datapad look.
+- The theme follows your main class (the cyan one in 'score' or 'levels'); pick any other with 'theme <name>' or Utilities > Themes. The ship bar's frame only shows while you're in a ship.
+- Click the version number on the toolbar: what's new, and an instant check for updates.
+
 ## v1.3.0 (2026-10-29)
 - Ship pictures on the map: a top-down drawing of the ship sits under its map, lined up with the rooms (you see the Flashfire with you in its cockpit).
 - Drawn so far: Flashfire, Star Commuter shuttle, JumpMaster 5000, YT-1000, Star Galleon, LAAT/s, Vigo gunship. 'shipmap art nudge <east> <north>' fine-tunes the spot.
