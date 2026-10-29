@@ -1,11 +1,17 @@
 {
- "version": "1.2.3",
+ "version": "1.2.4",
  "date": "2026-10-29",
  "notes": [
-  "Recording (rec) starts by itself every time Mudlet starts; 'rec off' stops it until the next start. Your login is never recorded.",
-  "Update check the moment you log in (your first room in the game), then every 15 minutes from there."
+  "Recordings skip the whole login screen (account, passwords, character list): they start right after your last password, at the Message of the Day or 'Reconnecting'."
  ],
  "history": [
+  [
+   "1.2.4",
+   "2026-10-29",
+   [
+    "Recordings skip the whole login screen (account, passwords, character list): they start right after your last password, at the Message of the Day or 'Reconnecting'."
+   ]
+  ],
   [
    "1.2.3",
    "2026-10-29",

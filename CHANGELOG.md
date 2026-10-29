@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.2.4 (2026-10-29)
+- Recordings skip the whole login screen (account, passwords, character list): they start right after your last password, at the Message of the Day or 'Reconnecting'.
+
 ## v1.2.3 (2026-10-29)
 - Recording (rec) starts by itself every time Mudlet starts; 'rec off' stops it until the next start. Your login is never recorded.
 - Update check the moment you log in (your first room in the game), then every 15 minutes from there.
