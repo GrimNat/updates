@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.4.1 (2026-10-29)
+- Fixed: in space the ship bar flickered over the bottom of the game text (and its scrollbar) about once a second.
+
 ## v1.4.0 (2026-10-29)
 - Themes: framed map, chat, bottom and ship bars plus matching toolbar colours, one look per class (combat, piloting, engineering, bounty hunting, smuggling, leadership, espionage, slicer, medical, science, force) or the plain datapad look.
 - The theme follows your main class (the cyan one in 'score' or 'levels'); pick any other with 'theme <name>' or Utilities > Themes. The ship bar's frame only shows while you're in a ship.
