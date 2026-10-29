@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.2.2 (2026-10-29)
+- Update window: the buttons show each step (Downloading... / Installing... / Updated), extra clicks are ignored while it works, and it closes by itself when done.
+- Buttons with nothing to do are greyed out instead of disappearing; the map asks for a second click before it replaces yours.
+
 ## v1.2.1 (2026-10-29)
 - Updates are also checked when you connect and every 15 minutes, not only when Mudlet starts. 'Later' means no reminder for that version until you restart Mudlet.
 

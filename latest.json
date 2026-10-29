@@ -1,10 +1,19 @@
 {
- "version": "1.2.1",
+ "version": "1.2.2",
  "date": "2026-10-29",
  "notes": [
-  "Updates are also checked when you connect and every 15 minutes, not only when Mudlet starts. 'Later' means no reminder for that version until you restart Mudlet."
+  "Update window: the buttons show each step (Downloading... / Installing... / Updated), extra clicks are ignored while it works, and it closes by itself when done.",
+  "Buttons with nothing to do are greyed out instead of disappearing; the map asks for a second click before it replaces yours."
  ],
  "history": [
+  [
+   "1.2.2",
+   "2026-10-29",
+   [
+    "Update window: the buttons show each step (Downloading... / Installing... / Updated), extra clicks are ignored while it works, and it closes by itself when done.",
+    "Buttons with nothing to do are greyed out instead of disappearing; the map asks for a second click before it replaces yours."
+   ]
+  ],
   [
    "1.2.1",
    "2026-10-29",
