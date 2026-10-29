@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.6.0 (2026-10-29)
+- Ship maps mark the rooms that matter: cockpits yellow 'C', turrets red 'T', engine rooms green 'E' (rooms the game tags [ENGINE], or with Engine in the name).
+- Every ship already on your map gets marked when Mudlet starts, and every ship of a class shares the marks.
+
 ## v1.5.0 (2026-10-29)
 - Clan private datanet: 'dncrawl MS private' (any clan you belong to) also saves the members-only pages, kept apart in their own folder and marked with the character who read them.
 - Datapad: members-only pages show in orange under their clan, in a MEMBERS ONLY section below the public pages.
