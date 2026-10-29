@@ -1,11 +1,21 @@
 {
- "version": "1.6.0",
+ "version": "1.7.0",
  "date": "2026-10-29",
  "notes": [
-  "Ship maps mark the rooms that matter: cockpits yellow 'C', turrets red 'T', engine rooms green 'E' (rooms the game tags [ENGINE], or with Engine in the name).",
-  "Every ship already on your map gets marked when Mudlet starts, and every ship of a class shares the marks."
+  "Ark Run: choose what to gather (crate, wireless, test results, crystal chips, frozen organisms, the tunnel credit, Arkanian diamonds, blue diamonds, lommite) in Utilities > Ark Run or with 'arkrun gather <kind> on|off'. Start takes the shortest loop for what's switched on.",
+  "Ark Run: type your locker number in the box on the Ark Run page (or 'arkrun locker <n>'). Each player sets their own; too-heavy pickups go there and the pickaxe comes from it.",
+  "Not gathering crates: the run goes straight away and, after the loop, waits for the city's reset line before going again."
  ],
  "history": [
+  [
+   "1.7.0",
+   "2026-10-29",
+   [
+    "Ark Run: choose what to gather (crate, wireless, test results, crystal chips, frozen organisms, the tunnel credit, Arkanian diamonds, blue diamonds, lommite) in Utilities > Ark Run or with 'arkrun gather <kind> on|off'. Start takes the shortest loop for what's switched on.",
+    "Ark Run: type your locker number in the box on the Ark Run page (or 'arkrun locker <n>'). Each player sets their own; too-heavy pickups go there and the pickaxe comes from it.",
+    "Not gathering crates: the run goes straight away and, after the loop, waits for the city's reset line before going again."
+   ]
+  ],
   [
    "1.6.0",
    "2026-10-29",
