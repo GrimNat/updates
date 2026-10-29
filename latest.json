@@ -1,15 +1,21 @@
 {
- "version": "1.0.0",
- "date": "2026-10-28",
+ "version": "1.1.0",
+ "date": "2026-10-29",
  "notes": [
-  "Version numbers: shown on the toolbar (click for this list).",
-  "Updates from inside Mudlet: new versions and maps are offered in a pop-up when the profile loads ('omiupdate' checks now). This is the last package you install by hand.",
-  "Utilities button: Fly Loop (your own ship, any two planets, landing pads), Landing Pads list, Ark Run controls.",
-  "Hail pop-up: ship hails open a movable window in the middle of the screen; reply from it. 'hails' opens it.",
-  "Bank: 'bank list' now works with any prompt (it waited for one particular prompt before).",
-  "Landing pads are learned whenever you type 'land <planet>' in orbit without a pad ('pads' lists them)."
+  "Ship maps: one blueprint per ship class. Board any ship of a mapped class (every Star Commuter shuttle, every Flashfire) and its whole map is drawn at once.",
+  "Map a new class once (board, 'map start', walk it, leave) and it works in every ship of that class. Blueprints come with updates.",
+  "Utilities > Ship Maps lists the blueprints; 'shipmap' does the same in the main window."
  ],
  "history": [
+  [
+   "1.1.0",
+   "2026-10-29",
+   [
+    "Ship maps: one blueprint per ship class. Board any ship of a mapped class (every Star Commuter shuttle, every Flashfire) and its whole map is drawn at once.",
+    "Map a new class once (board, 'map start', walk it, leave) and it works in every ship of that class. Blueprints come with updates.",
+    "Utilities > Ship Maps lists the blueprints; 'shipmap' does the same in the main window."
+   ]
+  ],
   [
    "1.0.0",
    "2026-10-28",

@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.1.0 (2026-10-29)
+- Ship maps: one blueprint per ship class. Board any ship of a mapped class (every Star Commuter shuttle, every Flashfire) and its whole map is drawn at once.
+- Map a new class once (board, 'map start', walk it, leave) and it works in every ship of that class. Blueprints come with updates.
+- Utilities > Ship Maps lists the blueprints; 'shipmap' does the same in the main window.
+
 ## v1.0.0 (2026-10-28)
 - Version numbers: shown on the toolbar (click for this list).
 - Updates from inside Mudlet: new versions and maps are offered in a pop-up when the profile loads ('omiupdate' checks now). This is the last package you install by hand.
