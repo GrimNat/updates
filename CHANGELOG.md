@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.3.0 (2026-10-29)
+- Ship pictures on the map: a top-down drawing of the ship sits under its map, lined up with the rooms (you see the Flashfire with you in its cockpit).
+- Drawn so far: Flashfire, Star Commuter shuttle, JumpMaster 5000, YT-1000, Star Galleon, LAAT/s, Vigo gunship. 'shipmap art nudge <east> <north>' fine-tunes the spot.
+- Aboard a ship the map zooms in so the ship fills it, and zooms back out when you leave ('shipmap zoom off' to stop it, 'shipmap zoom <n>' for n rooms across).
+
 ## v1.2.4 (2026-10-29)
 - Recordings skip the whole login screen (account, passwords, character list): they start right after your last password, at the Message of the Day or 'Reconnecting'.
 

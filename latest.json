@@ -1,10 +1,21 @@
 {
- "version": "1.2.4",
+ "version": "1.3.0",
  "date": "2026-10-29",
  "notes": [
-  "Recordings skip the whole login screen (account, passwords, character list): they start right after your last password, at the Message of the Day or 'Reconnecting'."
+  "Ship pictures on the map: a top-down drawing of the ship sits under its map, lined up with the rooms (you see the Flashfire with you in its cockpit).",
+  "Drawn so far: Flashfire, Star Commuter shuttle, JumpMaster 5000, YT-1000, Star Galleon, LAAT/s, Vigo gunship. 'shipmap art nudge <east> <north>' fine-tunes the spot.",
+  "Aboard a ship the map zooms in so the ship fills it, and zooms back out when you leave ('shipmap zoom off' to stop it, 'shipmap zoom <n>' for n rooms across)."
  ],
  "history": [
+  [
+   "1.3.0",
+   "2026-10-29",
+   [
+    "Ship pictures on the map: a top-down drawing of the ship sits under its map, lined up with the rooms (you see the Flashfire with you in its cockpit).",
+    "Drawn so far: Flashfire, Star Commuter shuttle, JumpMaster 5000, YT-1000, Star Galleon, LAAT/s, Vigo gunship. 'shipmap art nudge <east> <north>' fine-tunes the spot.",
+    "Aboard a ship the map zooms in so the ship fills it, and zooms back out when you leave ('shipmap zoom off' to stop it, 'shipmap zoom <n>' for n rooms across)."
+   ]
+  ],
   [
    "1.2.4",
    "2026-10-29",
@@ -67,7 +78,7 @@
   ]
  ],
  "map": {
-  "version": "2026-10-28.2359",
-  "notes": "Every planet and public shuttle mapped so far, plus a Flashfire Starfighter."
+  "version": "2026-10-29.0146",
+  "notes": "Ship areas tidied into one area per class, with ship pictures under them."
  }
 }
