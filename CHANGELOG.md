@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.2.3 (2026-10-29)
+- Recording (rec) starts by itself every time Mudlet starts; 'rec off' stops it until the next start. Your login is never recorded.
+- Update check the moment you log in (your first room in the game), then every 15 minutes from there.
+
 ## v1.2.2 (2026-10-29)
 - Update window: the buttons show each step (Downloading... / Installing... / Updated), extra clicks are ignored while it works, and it closes by itself when done.
 - Buttons with nothing to do are greyed out instead of disappearing; the map asks for a second click before it replaces yours.
