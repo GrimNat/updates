@@ -2,6 +2,13 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.5.0 (2026-10-29)
+- Clan private datanet: 'dncrawl MS private' (any clan you belong to) also saves the members-only pages, kept apart in their own folder and marked with the character who read them.
+- Datapad: members-only pages show in orange under their clan, in a MEMBERS ONLY section below the public pages.
+- Ark Run: no more lommite digging in the tunnel (the blue diamond digs stay), and after emptying your pockets into the locker it takes your comlinks back out, so you can still hear and talk.
+- Ship pictures: the Naboo N-1 Starfighter now has one under its map, and the LAAT/s Gunship's picture shows up (its name was wrong).
+- Ship DB: every ship you pass (pads, hangars, the view from your cockpit) is noted quietly with where it was seen. 'shipdb locate' (or Utilities > Ship DB) runs locateship on the new ones, from anywhere; owners are kept as a history, so a sold ship shows who had it before. 'shipdb owner <name>' lists what someone owns.
+
 ## v1.4.1 (2026-10-29)
 - Fixed: in space the ship bar flickered over the bottom of the game text (and its scrollbar) about once a second.
 
