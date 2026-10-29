@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.2.1 (2026-10-29)
+- Updates are also checked when you connect and every 15 minutes, not only when Mudlet starts. 'Later' means no reminder for that version until you restart Mudlet.
+
 ## v1.2.0 (2026-10-29)
 - Ship map areas are named after the ship's class ('Star Commuter 2000 Transport'), not each ship: one area per class, all its ships share it.
 - Old per-ship areas (PUB04, PUB10, PUB29, your own ships) are folded into their class areas by themselves when Mudlet loads.
