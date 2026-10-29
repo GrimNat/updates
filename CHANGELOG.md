@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.2.0 (2026-10-29)
+- Ship map areas are named after the ship's class ('Star Commuter 2000 Transport'), not each ship: one area per class, all its ships share it.
+- Old per-ship areas (PUB04, PUB10, PUB29, your own ships) are folded into their class areas by themselves when Mudlet loads.
+- A class's blueprint is learned from the map as soon as you board one, even right after Mudlet starts.
+
 ## v1.1.0 (2026-10-29)
 - Ship maps: one blueprint per ship class. Board any ship of a mapped class (every Star Commuter shuttle, every Flashfire) and its whole map is drawn at once.
 - Map a new class once (board, 'map start', walk it, leave) and it works in every ship of that class. Blueprints come with updates.
