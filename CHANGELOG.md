@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.9.0 (2026-10-29)
+- Guides: Help (toolbar) now starts with OMILOTJ GUIDES, a short how-to page for every tool we've built. Type 'guide' to open them, or 'guide <word>' (guide dossiers, guide arkrun, guide shipdb...).
+- Dossiers fill themselves in with what the game tells you outright: someone introducing themself (or you to them), a dub, 'lookup' with a datapad (race, sex, level, clan and rank, and the whole databank file), 'locateship' owners (the ship goes into their file), 'memory' (names and how they look), and every name the Journal knows. Each file gets a contact log of when and where you met.
+- Ship DB notes ships in space too: the ones you see out of the cockpit while flying (the bright yellow list) and every ship on 'radar', with the system and the planet they were near. New ones join the list for 'shipdb locate'.
+
 ## v1.8.2 (2026-10-29)
 - The chat wrap fix from 1.8.1 really is in this one (the 1.8.1 download went out without it).
 
