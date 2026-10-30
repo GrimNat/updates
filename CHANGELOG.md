@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.13.0 (2026-10-30)
+- New: Accent. Your character's way of talking goes on what you say in character (say, sayto, whisper, CommNet, clan, broadcast, hails, quoted speech in emotes). Built in: a Watto-like Toydarian voice ('That sounds exciting' -> 'Dat sounds excitin''). Off until you type 'accent on'; 'accent test <text>' shows it first, '!' before a line sends it as typed. Help > Guides > Accent.
+- Ship DB: back at a pad you've seen before, it lists every ship that arrived since your last visit: NEW if you've never seen it anywhere, otherwise its owner (and their clan) and where it was last seen, with a [locate] link to look it up straight away. The first visit to a pad is still just one line.
+
 ## v1.12.0 (2026-10-30)
 - Ark Run: lommite now digs 10 rooms along the tunnel through Mount Ravkin (it was 2). With lommite switched on, the run walks the whole tunnel from the west end out to the Mining Village Entrance, digging as it goes: only 6 more commands than the normal loop. Still off by default (Utilities > Ark Run).
 - Fixed: a 'dub' or 'greet' that fails ("They aren't here.") is no longer saved in your memory log, however often you retry it. Lines that just happened to arrive meanwhile (like an interrupted study) are left out of memory records too.
