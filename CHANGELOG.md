@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.11.0 (2026-10-29)
+- Journal: CommNet channels have names. General (0), Confederacy (1), Republic (1024), Durafly (455) and Merr-Sonn (5555) each get their own entry under Recordings; frequencies without a name sit under 'Other frequencies'.
+- Name any channel as you learn whose it is: 'name this channel' on its page, or 'journal freq <number> = <name>'. Your names stay on your computer.
+- People pages and dossiers say where someone was heard: 'General 12, Republic 3, clan comms 5, in person 2'.
+
 ## v1.10.0 (2026-10-29)
 - Fixed: a 'locateship' you type yourself is now kept too (before, only 'shipdb locate' runs were), so the owner's dossier gets the ship.
 - Dossiers: anyone who talks on your clan comms gets their clan, division and rank filled in (only members can talk there). Your old clan-comm recordings are read once too.
