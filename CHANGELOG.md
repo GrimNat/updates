@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.12.0 (2026-10-30)
+- Ark Run: lommite now digs 10 rooms along the tunnel through Mount Ravkin (it was 2). With lommite switched on, the run walks the whole tunnel from the west end out to the Mining Village Entrance, digging as it goes: only 6 more commands than the normal loop. Still off by default (Utilities > Ark Run).
+- Fixed: a 'dub' or 'greet' that fails ("They aren't here.") is no longer saved in your memory log, however often you retry it. Lines that just happened to arrive meanwhile (like an interrupted study) are left out of memory records too.
+
 ## v1.11.0 (2026-10-29)
 - Journal: CommNet channels have names. General (0), Confederacy (1), Republic (1024), Durafly (455) and Merr-Sonn (5555) each get their own entry under Recordings; frequencies without a name sit under 'Other frequencies'.
 - Name any channel as you learn whose it is: 'name this channel' on its page, or 'journal freq <number> = <name>'. Your names stay on your computer.
