@@ -2,6 +2,15 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.10.0 (2026-10-29)
+- Fixed: a 'locateship' you type yourself is now kept too (before, only 'shipdb locate' runs were), so the owner's dossier gets the ship.
+- Dossiers: anyone who talks on your clan comms gets their clan, division and rank filled in (only members can talk there). Your old clan-comm recordings are read once too.
+- Dossiers: clan members you only know by a description ('A Human male') are listed on the Dossiers home page under UNNAMED, with their race, rank and last lines. Click 'name them' once you know who it is.
+
+## v1.9.1 (2026-10-29)
+- Fixed: a dossier showed only the name and nothing else (one of its links was missing the hover text Mudlet requires). Every panel's links now always have one.
+- Fixed: 'lookup' now reads any databank file, however the player laid it out (NAME: / SPECIES: / ALLEGIANCE: style too), and keeps the whole file in the dossier.
+
 ## v1.9.0 (2026-10-29)
 - Guides: Help (toolbar) now starts with OMILOTJ GUIDES, a short how-to page for every tool we've built. Type 'guide' to open them, or 'guide <word>' (guide dossiers, guide arkrun, guide shipdb...).
 - Dossiers fill themselves in with what the game tells you outright: someone introducing themself (or you to them), a dub, 'lookup' with a datapad (race, sex, level, clan and rank, and the whole databank file), 'locateship' owners (the ship goes into their file), 'memory' (names and how they look), and every name the Journal knows. Each file gets a contact log of when and where you met.
