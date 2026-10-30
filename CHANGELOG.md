@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.14.1 (2026-10-30)
+- Accent: 'accent list' shows every word and phrase your accent uses (your style's and your own), and how often the sometimes-changes happen.
+
 ## v1.14.0 (2026-10-30)
 - Accent now starts blank for everyone: build your character's own voice with 'accent swap <word> = <new>' and 'accent phrase <words> = <new>', try it with 'accent test <text>', then 'accent on'. (The Toydarian voice from 1.13.0 was the owner's own and isn't included any more.) Help > Guides > Accent.
 - Accent: 'accent review' lists the sentences that went out exactly as you typed them, so missing words are easy to spot. What you say is kept as typed and as sent in your own omi_accent_log.txt (never shared).
