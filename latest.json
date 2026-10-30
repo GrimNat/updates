@@ -1,14 +1,17 @@
 {
- "version": "1.8.0",
+ "version": "1.8.1",
  "date": "2026-10-29",
  "notes": [
-  "Dossiers (new toolbar button): your own file on each person, like a records database. Clan, rank, profession, who they work for, race, base, plus lists of other names, disguises you've seen, restrung armor looks, ships, shops and notes. You fill it in as you work things out; nothing fills itself in.",
-  "Every entry remembers when you wrote it and where you were, and is tagged IC (learned in play), PUB (public) or OOC (don't use it in character). Changing someone's clan keeps the old one as history.",
-  "Clues next to what you wrote: where the Ship DB saw each of their ships (which pads), the shop catalog's stock, and what your recordings hold (lines by or about them, also under each disguise, memory notes, thoughts).",
-  "Ship DB lookups work now: it reads the real locateship answer (owner, dock, planet), waits for each lookup to finish before starting the next (sending the next one early cut every lookup off), and tries again after 'no record found' or an interruption. Ships whose earlier lookups got nothing are looked up again by 'shipdb locate'.",
-  "Search finds people by any ship, disguise, name or note. 'dossier <name> ship = <ship>' adds things from the command line; Journal person pages get an 'open dossier' link. Dossiers stay on your PC: they're never shared."
+  "Fixed: chat tabs could wrap lines far too short (a few words per line in a wide box) when the chat's width was measured while Mudlet was still opening. The wrap now follows the chat box's real width (new lines; older lines keep their wrapping)."
  ],
  "history": [
+  [
+   "1.8.1",
+   "2026-10-29",
+   [
+    "Fixed: chat tabs could wrap lines far too short (a few words per line in a wide box) when the chat's width was measured while Mudlet was still opening. The wrap now follows the chat box's real width (new lines; older lines keep their wrapping)."
+   ]
+  ],
   [
    "1.8.0",
    "2026-10-29",

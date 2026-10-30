@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.8.1 (2026-10-29)
+- Fixed: chat tabs could wrap lines far too short (a few words per line in a wide box) when the chat's width was measured while Mudlet was still opening. The wrap now follows the chat box's real width (new lines; older lines keep their wrapping).
+
 ## v1.8.0 (2026-10-29)
 - Dossiers (new toolbar button): your own file on each person, like a records database. Clan, rank, profession, who they work for, race, base, plus lists of other names, disguises you've seen, restrung armor looks, ships, shops and notes. You fill it in as you work things out; nothing fills itself in.
 - Every entry remembers when you wrote it and where you were, and is tagged IC (learned in play), PUB (public) or OOC (don't use it in character). Changing someone's clan keeps the old one as history.
