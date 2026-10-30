@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.8.2 (2026-10-29)
+- The chat wrap fix from 1.8.1 really is in this one (the 1.8.1 download went out without it).
+
 ## v1.8.1 (2026-10-29)
 - Fixed: chat tabs could wrap lines far too short (a few words per line in a wide box) when the chat's width was measured while Mudlet was still opening. The wrap now follows the chat box's real width (new lines; older lines keep their wrapping).
 

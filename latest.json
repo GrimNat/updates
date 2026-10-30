@@ -1,10 +1,17 @@
 {
- "version": "1.8.1",
+ "version": "1.8.2",
  "date": "2026-10-29",
  "notes": [
-  "Fixed: chat tabs could wrap lines far too short (a few words per line in a wide box) when the chat's width was measured while Mudlet was still opening. The wrap now follows the chat box's real width (new lines; older lines keep their wrapping)."
+  "The chat wrap fix from 1.8.1 really is in this one (the 1.8.1 download went out without it)."
  ],
  "history": [
+  [
+   "1.8.2",
+   "2026-10-29",
+   [
+    "The chat wrap fix from 1.8.1 really is in this one (the 1.8.1 download went out without it)."
+   ]
+  ],
   [
    "1.8.1",
    "2026-10-29",
