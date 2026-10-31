@@ -2,6 +2,10 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.14.2 (2026-10-31)
+- Fixed: the accent now works on 'clan <text>' (the short way to type clantalk), not just 'clantalk'.
+- Fixed: an accent phrase's result is no longer changed again word by word (a phrase that gave "no have" could come out as "nah have").
+
 ## v1.14.1 (2026-10-30)
 - Accent: 'accent list' shows every word and phrase your accent uses (your style's and your own), and how often the sometimes-changes happen.
 

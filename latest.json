@@ -1,10 +1,19 @@
 {
- "version": "1.14.1",
- "date": "2026-10-30",
+ "version": "1.14.2",
+ "date": "2026-10-31",
  "notes": [
-  "Accent: 'accent list' shows every word and phrase your accent uses (your style's and your own), and how often the sometimes-changes happen."
+  "Fixed: the accent now works on 'clan <text>' (the short way to type clantalk), not just 'clantalk'.",
+  "Fixed: an accent phrase's result is no longer changed again word by word (a phrase that gave \"no have\" could come out as \"nah have\")."
  ],
  "history": [
+  [
+   "1.14.2",
+   "2026-10-31",
+   [
+    "Fixed: the accent now works on 'clan <text>' (the short way to type clantalk), not just 'clantalk'.",
+    "Fixed: an accent phrase's result is no longer changed again word by word (a phrase that gave \"no have\" could come out as \"nah have\")."
+   ]
+  ],
   [
    "1.14.1",
    "2026-10-30",
