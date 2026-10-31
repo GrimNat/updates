@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.14.3 (2026-10-31)
+- Accent: a grumble like ", eh" now only comes at the end of a sentence, never in the middle of one ("a betta deal, eh dan dat" was the old way). An "eh" you type yourself is always kept.
+
 ## v1.14.2 (2026-10-31)
 - Fixed: the accent now works on 'clan <text>' (the short way to type clantalk), not just 'clantalk'.
 - Fixed: an accent phrase's result is no longer changed again word by word (a phrase that gave "no have" could come out as "nah have").
