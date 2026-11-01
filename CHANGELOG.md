@@ -2,6 +2,13 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.16.1 (2026-11-01)
+- Landing (Auto Cargo): any pad will do now, garages included (cargo trades there too), picked at random. Your own clan's pads come first (the safest; your clan is read from 'score'), other clans' pads only as a last resort. A pad that answers "Restricted Landing pad" is skipped for that character from then on, whoever sent the land. A planet whose pads aren't known yet gets a plain 'land <planet>' first to list them. 'pads <planet>' shows CLAN / ok / other / refused per pad.
+- New: Smart Exits. Doors you open with a command now work by walking: on Arkania's Mountainside Road just type 'se' and it pushes the palm for the city airlock; at Merr-Sonn's secured doors the direction says 'enter' / 'exit' for you. 15 doors from the recordings are built in (Arkania, Merr-Sonn, Kala'uun spaceport, Lorrd spaceport, Kafrene). A new door learns itself: open it once with say / push / press and walk through, and from then on the direction does it. Speedwalks and map clicks use them too. 'sx' lists a room's, 'sx se push palm' adds one, 'sx se remove' takes one out.
+- Fixed: the hyperlane lines and jump-range ring didn't show on the Galaxy tab (they were drawn behind the starfield). The untested grey lanes are brighter too, and lanes learned while another tab is open appear when you open the Galaxy tab.
+- Fixed: 'flight', the range ring and Ship Stats now know your ship after a restart while you're aboard (from the room you're in, and the last ship you boarded).
+- Ship Stats: type any number of units to add in the new box (1, 50, 1000...), or click +1 / +5 / +10 / +50 / +100 / +1000. Every row now counts real units (no more x10 / x100), and shows how many more of each fit in the ship's free quota.
+
 ## v1.16.0 (2026-11-01)
 - New: Omi Flight. 'flight' shows your ship's real numbers, worked out from 83 recorded flights: a jump takes 500 x parsecs / hyperspeed seconds, fuel = the ship's fuel-per-parsec x parsecs (YT-1000 229, Flashfire 80), realspace speed / 10 units a second, and every Maneuver point under 100 adds half a second to launches, landings and turns. 'flight <planet>' = a jump from where you are: time, fuel, the whole leg. Help > Guides > Flight.
 - Getting clear to jump: after every launch the radar is read and, if another ship sits in your way, a course is set the fastest way to 500 units from everything. 'getclear' does it by hand (it speeds back up first if you were stopped).
