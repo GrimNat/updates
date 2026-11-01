@@ -2,6 +2,12 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.15.0 (2026-10-31)
+- New: Turbolift panel. Inside a turbolift an elevator panel slides in beside the map and chat: the lift's directory on a screen and round floor buttons. Click one to ride there. It already knows the Merr-Sonn, Ryloth City, East Hangar and Academy lifts; any other lift is learned the first time you look at its panel, plate or directory. Help > Guides > Turbolifts.
+- The panel shows your CURRENT FLOOR like a real lift: learned when the doors open after a ride, and from the room you walk in from (each room beside a lift belongs to a floor; it learns more every time you step out).
+- Ship maps: the YT-1000 picture is bigger and lined up with its rooms (the cockpit corridor and cockpit were floating above the ship), and its cockpit, one floor up, has its own picture: go up and the map shows the cockpit pod instead of an empty background. Pictures now update themselves on your map when a new version changes them.
+- Ships: 'stat' aboard a ship is now kept too (hull, shields, fuel, ammo, cargo), next to its 'info'. Both show on the ship's Storage page and in 'shipdb <ship>' (access codes hidden until you click show codes).
+
 ## v1.14.3 (2026-10-31)
 - Accent: a grumble like ", eh" now only comes at the end of a sentence, never in the middle of one ("a betta deal, eh dan dat" was the old way). An "eh" you type yourself is always kept.
 
