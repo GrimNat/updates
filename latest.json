@@ -1,11 +1,19 @@
 {
- "version": "1.21.1",
+ "version": "1.22.0",
  "date": "2026-11-02",
  "notes": [
-  "Fix: the turbolift's old small white numbers showed through the new LED digits on the buttons and the floor readout. Now only the LED digits show.",
-  "Fix: the turbolift and the landing/docking panels show their intended colours: green directory lines, amber for where the lift is going, red for ACCESS DENIED and for pads that refused you (all of it showed white before)."
+  "New (Mudlet 5.1 or newer): the Map tab can show the map in 3D with Mudlet's new 3D mapper, to see ships with several decks from an angle. Ships > Ship maps has the buttons: 3D on/off, seven looks (Tiles, Blueprint, Terminal, Transit, Hologram, Ink wash, Diorama), views (Iso from a corner like old Diablo, Angled, Top, Side), turn, closer, further, darker other decks. Off puts the 2D map back with every setting as it was; the map itself is never changed. Optional: 3D by itself aboard a ship, 2D again when you leave. Typed: map3d.",
+  "The Map tab has a small 2D | 3D button in its top left corner that flips the map (move it to the top right or hide it on Ships > Ship maps). For both at once, 'pop-out map' opens a second map window that follows you around: click its own 3D button once."
  ],
  "history": [
+  [
+   "1.22.0",
+   "2026-11-02",
+   [
+    "New (Mudlet 5.1 or newer): the Map tab can show the map in 3D with Mudlet's new 3D mapper, to see ships with several decks from an angle. Ships > Ship maps has the buttons: 3D on/off, seven looks (Tiles, Blueprint, Terminal, Transit, Hologram, Ink wash, Diorama), views (Iso from a corner like old Diablo, Angled, Top, Side), turn, closer, further, darker other decks. Off puts the 2D map back with every setting as it was; the map itself is never changed. Optional: 3D by itself aboard a ship, 2D again when you leave. Typed: map3d.",
+    "The Map tab has a small 2D | 3D button in its top left corner that flips the map (move it to the top right or hide it on Ships > Ship maps). For both at once, 'pop-out map' opens a second map window that follows you around: click its own 3D button once."
+   ]
+  ],
   [
    "1.21.1",
    "2026-11-02",
@@ -368,7 +376,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-02.0514",
-  "notes": "Map update: rooms mapped on 2026-11-02 (morning)"
+  "version": "2026-11-02.1529",
+  "notes": "Map update: places mapped on 2 November since the morning update"
  }
 }
