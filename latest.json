@@ -1,12 +1,19 @@
 {
- "version": "1.21.0",
+ "version": "1.21.1",
  "date": "2026-11-02",
  "notes": [
-  "New: GNI TradeCasts are tracked. A demand spike (sell that cargo there) or an oversupply (buy it there) brings up an alert saying where to buy or sell it from your price scans, with a link to check the price now. Trade routes that use the event are marked, and the routes page shows what's on. Trade > TradeCasts lists every event: how long they last, how far apart they come, how far the price moved and how long it took to recover, and roughly when the next one is due.",
-  "The turbolift panel's floor buttons and floor readout now show LED-clock seven-segment digits on dark glass, bigger and easier to read: amber, green where you are, bright where it's going, red when refused (the readout says 'no').",
-  "Fix: Settings > Action timers wouldn't open ('bad argument #3 to format'), the Landing Pads page broke on a pad with ships seen on it, and a dossier's ship never showed its 'open <ship>' link for a rename lead."
+  "Fix: the turbolift's old small white numbers showed through the new LED digits on the buttons and the floor readout. Now only the LED digits show.",
+  "Fix: the turbolift and the landing/docking panels show their intended colours: green directory lines, amber for where the lift is going, red for ACCESS DENIED and for pads that refused you (all of it showed white before)."
  ],
  "history": [
+  [
+   "1.21.1",
+   "2026-11-02",
+   [
+    "Fix: the turbolift's old small white numbers showed through the new LED digits on the buttons and the floor readout. Now only the LED digits show.",
+    "Fix: the turbolift and the landing/docking panels show their intended colours: green directory lines, amber for where the lift is going, red for ACCESS DENIED and for pads that refused you (all of it showed white before)."
+   ]
+  ],
   [
    "1.21.0",
    "2026-11-02",
@@ -361,7 +368,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-02.0357",
-  "notes": "Map update: rooms and pads mapped on 2026-11-02"
+  "version": "2026-11-02.0514",
+  "notes": "Map update: rooms mapped on 2026-11-02 (morning)"
  }
 }
