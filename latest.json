@@ -1,18 +1,17 @@
 {
- "version": "1.19.0",
+ "version": "1.19.1",
  "date": "2026-11-01",
  "notes": [
-  "Ship DB keeps track of ships that may have been renamed or destroyed. A ship that stops having a record is marked missing. A new name of the same hull that turns up where it vanished becomes a rename lead, scored by pad, owner and timing, and a pad tells you on the spot. You confirm a rename, rule one out, or mark a ship destroyed (Ships > Ship DB > missing & renames). Your old lookups are read once, so ships that never had a record are skipped by 'Look up new'.",
-  "Ship DB lookups now say which ship they're on: '[shipdb] Locating MerrTrade01 (YT-1000 Light Freighter)  3 of 12', with retries marked, and a note when they wait for Auto Cargo or Fly To to reach hyperspace.",
-  "Ship DB fix: ships taking off ('Bejeweled [Launching]') were saved as extra ships, and a pad's '[Security]' tag made one pad count as two places. Both are merged.",
-  "Ship DB is now a database you can browse (Ships > Ship DB): every hull type, then every ship of that type, then one ship's file (where it's been seen, its owners over time, the dossiers that list it, its readouts). Click an owner to see everything they own and open their dossier; click a place to see every ship seen there. A Find box searches ships, owners and places. Dossiers and Landing Pads link back into it.",
-  "New: Journal > ITEMS, a record of every item that changes hands, with the time and the room. It covers what you give, slip, drop, pick up, put away, buy and sell, what's given to you, and what others give, drop or pick up around you. Your older logs are read once for it, so it goes back to your first session.",
-  "Journal search: a line repeated many times (a look spammed, an inventory listed) now shows once, with a count and when it was last seen, so it no longer pushes the older matches off the page.",
-  "New: the Galaxy tab shows your planned route in green while Fly To or Auto Cargo is flying (amber rings = refuel stops, green rings = where you trade or land at the end). Each lane goes back to its usual colour once you've flown it. Pausing keeps the route on the map; stopping or arriving clears it. Auto Cargo shows the rest of the loop, back to where the run started. 'lanes route off' hides it.",
-  "Auto Cargo no longer refuses a route with a leg longer than one tank. It plans refuel stops within your ship's range (Arkania > Tatooine in a YT-1000 = Arkania > Ryloth > Ithor > Tatooine), and at each one it lands, refuels and flies on without trading. A lane that turns out closed, or fuel running short, gets a new plan on the spot.",
-  "Trade routes count those refuel stops: each leg is timed the way Auto Cargo will fly it, so a route across the galaxy no longer looks like the best money. Route names show the stops, e.g. 'Arkania > (Ryloth: refuel) > (Ithor: refuel) > Tatooine'."
+  "Ship DB fix: looking out of a cockpit at a landing pad saved the view as a separate pad, with no planet or with the planet you'd been on before the flight (one Ryloth pad turned into 7 entries and 3 places). The view now counts as the pad itself, the ship you're sitting in is counted as being on it, and the copies already saved are merged once."
  ],
  "history": [
+  [
+   "1.19.1",
+   "2026-11-01",
+   [
+    "Ship DB fix: looking out of a cockpit at a landing pad saved the view as a separate pad, with no planet or with the planet you'd been on before the flight (one Ryloth pad turned into 7 entries and 3 places). The view now counts as the pad itself, the ship you're sitting in is counted as being on it, and the copies already saved are merged once."
+   ]
+  ],
   [
    "1.19.0",
    "2026-11-01",

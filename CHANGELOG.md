@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.19.1 (2026-11-01)
+- Ship DB fix: looking out of a cockpit at a landing pad saved the view as a separate pad, with no planet or with the planet you'd been on before the flight (one Ryloth pad turned into 7 entries and 3 places). The view now counts as the pad itself, the ship you're sitting in is counted as being on it, and the copies already saved are merged once.
+
 ## v1.19.0 (2026-11-01)
 - Ship DB keeps track of ships that may have been renamed or destroyed. A ship that stops having a record is marked missing. A new name of the same hull that turns up where it vanished becomes a rename lead, scored by pad, owner and timing, and a pad tells you on the spot. You confirm a rename, rule one out, or mark a ship destroyed (Ships > Ship DB > missing & renames). Your old lookups are read once, so ships that never had a record are skipped by 'Look up new'.
 - Ship DB lookups now say which ship they're on: '[shipdb] Locating MerrTrade01 (YT-1000 Light Freighter)  3 of 12', with retries marked, and a note when they wait for Auto Cargo or Fly To to reach hyperspace.
