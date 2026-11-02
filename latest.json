@@ -1,13 +1,39 @@
 {
- "version": "1.16.2",
+ "version": "1.18.0",
  "date": "2026-11-01",
  "notes": [
-  "New: smart taxis in every speedwalk ('sp', map clicks, walk-there links). Each hail teaches where its destination drops you, and whether the room you hailed from works (outside), says 'go outside' (inside) or gets no answer (the wilds). When a speedwalk would be clearly shorter by walking to a known hail spot, hailing and walking the rest, it does that and tells you. It only hails from rooms where a taxi has come before, so it never wanders around trying. Arkania, Lorrd and Wroona are known from the recordings. 'taxis' shows what's known, 'taxis off' turns it off ('taxi' is still the game's shuttle command).",
-  "Trade and Auto Cargo now fly around closed hyperlanes. A lane known to be blocked (red on the Galaxy map: Ryloth - Lorrd and Arkania - Lorrd right now) is never suggested straight any more: the route goes via a system in between (Eeropha) and its distance, time and credits per hour count the longer way and the extra jump. A route with no way through at all isn't suggested. Auto Cargo makes the stop itself (jump to Eeropha, calculate again, jump on to the planet), and if a lane turns out to be blocked mid-run it notes it and takes the way around instead of stopping.",
-  "Each stop on a way around now says what it is: 'just passing through' when your fuel lasts to the end (you only drop out, calculate and jump on), or 'LAND and refuel at ...' when it won't (Eeropha's Refueling Outpost, or the planets in that system). You see it under the leg in Trade, in 'flight <planet>', and from Auto Cargo when it plans the jump. At a refuel stop Auto Cargo pauses with the reminder; land, refuel, launch, then 'autocargo resume' gets clear and jumps on. A refuel stop also counts in the route's time per loop.",
-  "Bank: a new look. Every account is its own row with real buttons (Deposit, Withdraw, Balance, From / To, Close; Close asks 'SURE?' first), the totals sit at the top (in the bank, on hand, at a bank), and quick amounts (10k, 100k, 1M, all cash on hand) fill the Amount box. History and known banks moved to their own tabs, so a deposit no longer pushes your accounts down the page."
+  "New: Fly To (Automation > Fly To, or type  flyto <planet>). Stand on the pad outside your ship and it flies you there: refuel, board, walk to the cockpit, launch, jump, land, walk out, close the ship, refuel.",
+  "Too far for one tank? It plans the quickest chain of refuel stops your ship's range allows, and flies around closed hyperlanes. A lane that turns out closed, or fuel running short, gets a new plan on the spot.",
+  "Pick your ship from YOUR SHIPS on the page (from 'ships owned' / 'ships clan'). The walk from the hatch to the cockpit comes from the hull's ship map; a hull never seen: walk it once yourself and type 'pilot', it's remembered.",
+  "Landing pads: pick one per planet (on the page, or it asks once you're in orbit). Your pick is kept and used every time, by Auto Cargo too, so the game's pad list isn't asked for on every landing any more.",
+  "The old community Autoflight's 'flyto' is switched off (its other commands still work)."
  ],
  "history": [
+  [
+   "1.18.0",
+   "2026-11-01",
+   [
+    "New: Fly To (Automation > Fly To, or type  flyto <planet>). Stand on the pad outside your ship and it flies you there: refuel, board, walk to the cockpit, launch, jump, land, walk out, close the ship, refuel.",
+    "Too far for one tank? It plans the quickest chain of refuel stops your ship's range allows, and flies around closed hyperlanes. A lane that turns out closed, or fuel running short, gets a new plan on the spot.",
+    "Pick your ship from YOUR SHIPS on the page (from 'ships owned' / 'ships clan'). The walk from the hatch to the cockpit comes from the hull's ship map; a hull never seen: walk it once yourself and type 'pilot', it's remembered.",
+    "Landing pads: pick one per planet (on the page, or it asks once you're in orbit). Your pick is kept and used every time, by Auto Cargo too, so the game's pad list isn't asked for on every landing any more.",
+    "The old community Autoflight's 'flyto' is switched off (its other commands still work)."
+   ]
+  ],
+  [
+   "1.17.0",
+   "2026-11-01",
+   [
+    "New toolbar: the ten buttons are now six menus plus a gear. Character (Gear & goals, Storage), People (Journal, Dossiers), Money (Trade routes, Shops, Bank), Ships (Ship stats, Ship DB, Landing pads, Ship maps), Automation (Auto Cargo, Fly Loop, Ark Run), Library (Clan datanet, Help & guides), and the gear: Theme, Action timers, Updates. Click a menu, then a window; each entry says what it is. With a menu open, moving along the bar opens the next one; menus close when the mouse leaves.",
+    "A green dot on Automation while something runs (amber when paused), and its menu says which one.",
+    "A new look everywhere, like the Bank: rounded gradient buttons and frames in your class theme's colours (Settings > Theme), the same in every window.",
+    "Automation pages (Auto Cargo, Fly Loop, Ark Run) and Ship DB have real Start / Pause / Resume / Stop buttons above the page instead of text links. The Utilities button is gone: its pages are in the Ships, Automation and Settings menus.",
+    "Settings > Action timers: every bar, how long it takes (learned or a guess), bars on / off, a test bar, forget a time. Settings > Updates: your version, the map, auto-check on / off, what's new, Check now.",
+    "Ship numbers follow the ship you're in: boarding a ship makes it the current one, and its own 'info' (speed, hyperspeed, maneuver, fuel) is used, so two YT-1000s with different upgrades get different jump, range and hyper-wait figures. A ship you haven't 'info'd uses its type's stock numbers and says so once, with a click-to-read [info] link; a brand-new type borrows the numbers of another ship of that type you have 'info'd. (Fixed: the game's size class, like 'Modified Freighter', was being read as the ship type.)",
+    "New progress bars, found in your logs: studying (45 s), research (30 s), databank lookup (33 s), digging, securing, recharging a datapad, pondering.",
+    "Auto Cargo and Fly Loop no longer spam 'hyper' after a launch. A ship flies speed / 10 units a second and must be 500 units from everything, so they wait 500 / (speed / 10) seconds after leaving the pad, plus 2: YT-1000 ~73 s, Flashfire ~55 s, Star Commuter ~85 s (your logs agree to a second or two), then press hyper once. If another ship sits close (radar) or you turned onto a faster way out, they wait for that instead. If the game still says 'too close', they try again after the next position update (it used to try every 6 seconds). While the ship is still turning they wait for 'Maneuver complete.' instead of asking again and again."
+   ]
+  ],
   [
    "1.16.2",
    "2026-11-01",
