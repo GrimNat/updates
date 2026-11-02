@@ -2,6 +2,19 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.20.0 (2026-11-02)
+- Action timer: new bars for turning (any course change, the maneuver you can do other things during), approach, first aid, disable security and the Tibanna harvester, with lengths measured from your own recordings.
+- Turning, launching and landing are learned per ship: your ship's own times first, then its hull type's, then a line over every ship you've flown and its Maneuver stat, so a ship you've never flown starts with a close estimate. The bar shows which ship (Settings > Action timers lists each ship's times).
+- New: a landing panel pops out (where the turbolift panel does) the moment you orbit a planet while flying by hand, with its landing pads as buttons. It marks your pick, your clan's pads and pads that refused you. Hidden pads that aren't in the game's list are learned when you land on one, and listed after that.
+- New: a docking panel shows when you dock with another ship, with buttons to undock now, in 10 seconds, cancel, or transfer fuel. When you're not docked, it lists the ships on your last radar to dock with (a saved docking code goes with the dock). Both panels switch on and off on Ships > Galaxy map.
+- New: Automation > Training, skill drills that need triggers and time. Slicer files runs encrypt_file then decrypt_file on yourself, round after round; Ponder ponders again each time it ends (it replaces the old always-on ponder trigger). Start, pause, resume and stop, with timer bars, waiting for Auto Cargo, Fly To and Ship DB lookups. Bot mode sends 'bot start' first so it's legal while you step away, shows the bot time left, pauses at the cooldown and can start again after it. Buttons for AutoStudy and autoresearch sit on the same page.
+- Action timer: encrypt and decrypt bars, and a fix: 'You stop what you were doing.' (a hyperjump or any command cutting a skill off) now stops the bar.
+- Jumping out is now timed from your ship's live position (GMCP, about once a second) and real speed, against everything on the radar including other ships, instead of a launch clock plus a safety margin. Auto Cargo and Fly To press hyper right at the edge. If another ship is in the way, one fresh radar shows where it is instead of a blind 20-second wait. The exact clear distance is learned from what the game says.
+- Flying by hand: a 'Clear to jump' bar while you fly out, a notice the moment you're clear, and an option to press hyper by itself then once the jump is calculated (Ships > Galaxy map > JUMPING, or 'getclear hyper on').
+- Galaxy tab: each hyperlane shows its length in parsecs in the middle of the line, for a quick read of how far a jump is.
+- New page Ships > Galaxy map: buttons for the lane distances (every lane / only lanes you've tried / off), untried lanes, the range ring and the planned route, plus every lane you know with its distance and where it was learned (forget a wrong one there).
+- Action timer fix: walking away from a ponder left its bar running. It now stops on 'Your thoughts turn from pondering...', and any skill you're busy with (the [*] in your prompt) stops its bar when the prompt goes back to [ ], so a study, dig or research cut short no longer leaves a bar behind.
+
 ## v1.19.1 (2026-11-01)
 - Ship DB fix: looking out of a cockpit at a landing pad saved the view as a separate pad, with no planet or with the planet you'd been on before the flight (one Ryloth pad turned into 7 entries and 3 places). The view now counts as the pad itself, the ship you're sitting in is counted as being on it, and the copies already saved are merged once.
 
