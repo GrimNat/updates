@@ -2,6 +2,11 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.21.0 (2026-11-02)
+- New: GNI TradeCasts are tracked. A demand spike (sell that cargo there) or an oversupply (buy it there) brings up an alert saying where to buy or sell it from your price scans, with a link to check the price now. Trade routes that use the event are marked, and the routes page shows what's on. Trade > TradeCasts lists every event: how long they last, how far apart they come, how far the price moved and how long it took to recover, and roughly when the next one is due.
+- The turbolift panel's floor buttons and floor readout now show LED-clock seven-segment digits on dark glass, bigger and easier to read: amber, green where you are, bright where it's going, red when refused (the readout says 'no').
+- Fix: Settings > Action timers wouldn't open ('bad argument #3 to format'), the Landing Pads page broke on a pad with ships seen on it, and a dossier's ship never showed its 'open <ship>' link for a rename lead.
+
 ## v1.20.0 (2026-11-02)
 - Action timer: new bars for turning (any course change, the maneuver you can do other things during), approach, first aid, disable security and the Tibanna harvester, with lengths measured from your own recordings.
 - Turning, launching and landing are learned per ship: your ship's own times first, then its hull type's, then a line over every ship you've flown and its Maneuver stat, so a ship you've never flown starts with a close estimate. The bar shows which ship (Settings > Action timers lists each ship's times).

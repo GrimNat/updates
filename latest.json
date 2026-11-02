@@ -1,20 +1,21 @@
 {
- "version": "1.20.0",
+ "version": "1.21.0",
  "date": "2026-11-02",
  "notes": [
-  "Action timer: new bars for turning (any course change, the maneuver you can do other things during), approach, first aid, disable security and the Tibanna harvester, with lengths measured from your own recordings.",
-  "Turning, launching and landing are learned per ship: your ship's own times first, then its hull type's, then a line over every ship you've flown and its Maneuver stat, so a ship you've never flown starts with a close estimate. The bar shows which ship (Settings > Action timers lists each ship's times).",
-  "New: a landing panel pops out (where the turbolift panel does) the moment you orbit a planet while flying by hand, with its landing pads as buttons. It marks your pick, your clan's pads and pads that refused you. Hidden pads that aren't in the game's list are learned when you land on one, and listed after that.",
-  "New: a docking panel shows when you dock with another ship, with buttons to undock now, in 10 seconds, cancel, or transfer fuel. When you're not docked, it lists the ships on your last radar to dock with (a saved docking code goes with the dock). Both panels switch on and off on Ships > Galaxy map.",
-  "New: Automation > Training, skill drills that need triggers and time. Slicer files runs encrypt_file then decrypt_file on yourself, round after round; Ponder ponders again each time it ends (it replaces the old always-on ponder trigger). Start, pause, resume and stop, with timer bars, waiting for Auto Cargo, Fly To and Ship DB lookups. Bot mode sends 'bot start' first so it's legal while you step away, shows the bot time left, pauses at the cooldown and can start again after it. Buttons for AutoStudy and autoresearch sit on the same page.",
-  "Action timer: encrypt and decrypt bars, and a fix: 'You stop what you were doing.' (a hyperjump or any command cutting a skill off) now stops the bar.",
-  "Jumping out is now timed from your ship's live position (GMCP, about once a second) and real speed, against everything on the radar including other ships, instead of a launch clock plus a safety margin. Auto Cargo and Fly To press hyper right at the edge. If another ship is in the way, one fresh radar shows where it is instead of a blind 20-second wait. The exact clear distance is learned from what the game says.",
-  "Flying by hand: a 'Clear to jump' bar while you fly out, a notice the moment you're clear, and an option to press hyper by itself then once the jump is calculated (Ships > Galaxy map > JUMPING, or 'getclear hyper on').",
-  "Galaxy tab: each hyperlane shows its length in parsecs in the middle of the line, for a quick read of how far a jump is.",
-  "New page Ships > Galaxy map: buttons for the lane distances (every lane / only lanes you've tried / off), untried lanes, the range ring and the planned route, plus every lane you know with its distance and where it was learned (forget a wrong one there).",
-  "Action timer fix: walking away from a ponder left its bar running. It now stops on 'Your thoughts turn from pondering...', and any skill you're busy with (the [*] in your prompt) stops its bar when the prompt goes back to [ ], so a study, dig or research cut short no longer leaves a bar behind."
+  "New: GNI TradeCasts are tracked. A demand spike (sell that cargo there) or an oversupply (buy it there) brings up an alert saying where to buy or sell it from your price scans, with a link to check the price now. Trade routes that use the event are marked, and the routes page shows what's on. Trade > TradeCasts lists every event: how long they last, how far apart they come, how far the price moved and how long it took to recover, and roughly when the next one is due.",
+  "The turbolift panel's floor buttons and floor readout now show LED-clock seven-segment digits on dark glass, bigger and easier to read: amber, green where you are, bright where it's going, red when refused (the readout says 'no').",
+  "Fix: Settings > Action timers wouldn't open ('bad argument #3 to format'), the Landing Pads page broke on a pad with ships seen on it, and a dossier's ship never showed its 'open <ship>' link for a rename lead."
  ],
  "history": [
+  [
+   "1.21.0",
+   "2026-11-02",
+   [
+    "New: GNI TradeCasts are tracked. A demand spike (sell that cargo there) or an oversupply (buy it there) brings up an alert saying where to buy or sell it from your price scans, with a link to check the price now. Trade routes that use the event are marked, and the routes page shows what's on. Trade > TradeCasts lists every event: how long they last, how far apart they come, how far the price moved and how long it took to recover, and roughly when the next one is due.",
+    "The turbolift panel's floor buttons and floor readout now show LED-clock seven-segment digits on dark glass, bigger and easier to read: amber, green where you are, bright where it's going, red when refused (the readout says 'no').",
+    "Fix: Settings > Action timers wouldn't open ('bad argument #3 to format'), the Landing Pads page broke on a pad with ships seen on it, and a dossier's ship never showed its 'open <ship>' link for a rename lead."
+   ]
+  ],
   [
    "1.20.0",
    "2026-11-02",
@@ -360,7 +361,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-02.0145",
-  "notes": "Map update: everything mapped since 2026-11-01 (new rooms, ship decks, landing pads)"
+  "version": "2026-11-02.0357",
+  "notes": "Map update: rooms and pads mapped on 2026-11-02"
  }
 }
