@@ -2,6 +2,25 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.25.0 (2026-11-02)
+- The left-hand lists of Datanet, Help & guides, Journal, Shops, Trade, Storage and Dossiers are real lists now: icons, counts on the right, the page you're on lit, folders (Help groups, Shops planets) open with an arrow, and they scroll with the mouse wheel and a slim scroll bar in your theme's colours.
+- Trade routes: a proper chart. Each route has a bar for its credits an hour, its numbers in columns, a fuel or permit mark when it needs one, and a Fly button that hands it to Auto Cargo. Hover a route for its legs (what to buy where).
+- Character > Gear & goals: real check boxes for the pieces you wear, your best-in-slot list and what you wear now side by side, all 24 slots on one screen.
+- Ships > Ship DB: hull types, a hull's ships, owners, places, last seen and Find results are tables you click (sort by name, last seen or owner).
+- Windows lay themselves out for their real size the moment they open (some drew at their old size first).
+- The 3D see-through ship hulls stay your own choice (Ships > Ship maps, or 'map3d hull on|off'): a map update from someone with them on no longer adds them to your map when yours are off, and turning them on fills them in even on a map that came without them.
+
+## v1.24.0 (2026-11-02)
+- New look for the toolbar menus and every Ships, Automation and Settings page: real icons instead of text symbols, cards, big status tiles, planet buttons, radio buttons for landing pads, on/off switches and check boxes instead of [x] and underlined words, and buttons with icons (Start, Pause, Stop...).
+- Less text: menu entries are just an icon and a name (hover one for what it does), and the long explanations on the pages are gone or tucked into the hover text.
+- Everything fits the window: long lists (your ships, sales, lanes, stats) turn pages with arrow buttons instead of running off the bottom or the right edge, and the text windows (Trade, Shops, Help, Datanet, Journal, Storage...) wrap their lines instead of cutting them off.
+- Windows open bigger, and remember where you put them: move or resize one and it opens that way next time (Settings > Theme > Reset window sizes puts them back).
+- Settings > Theme shows each theme as a card with its own corner art and colours: click one to use it.
+- The Map tab's 2D | 3D button moved to the top right: at the bottom left it sat on Mudlet's own map buttons.
+- Fix: a damaged save file (Mudlet closing in the middle of saving) can no longer stop any OmiLOTJ part from loading: the file is kept aside as <name>.broken-<date>, that part starts fresh, and it tells you once. Before, only the accent did this.
+- Fix: a second damaged accent file is kept too (it used to stay in place and warn at every load), an empty accent file now counts as damaged, and a hail reply says so when the accent couldn't be applied.
+- Fix: 'map3d hull' with no on/off (or a typo) no longer switches the hull on, and switching it to what it already is doesn't rebuild the map; the hull isn't added on a Mudlet without the 3D mapper.
+
 ## v1.23.0 (2026-11-02)
 - 3D map: every ship with a picture gets a see-through hull, glowing outlines of its shape between and around its decks, so it reads like a hologram of the ship with the rooms inside. 3D only: the 2D map stays exactly as it was. Switch it on Ships > Ship maps (or 'map3d hull off').
 - The Star Galleon, Vigo and JumpMaster pictures are redrawn to fit the rooms as they're really mapped (the Star Galleon's was far too small), and they now show under every deck of the ship, not just the entrance.
