@@ -1,11 +1,23 @@
 {
- "version": "1.22.0",
+ "version": "1.23.0",
  "date": "2026-11-02",
  "notes": [
-  "New (Mudlet 5.1 or newer): the Map tab can show the map in 3D with Mudlet's new 3D mapper, to see ships with several decks from an angle. Ships > Ship maps has the buttons: 3D on/off, seven looks (Tiles, Blueprint, Terminal, Transit, Hologram, Ink wash, Diorama), views (Iso from a corner like old Diablo, Angled, Top, Side), turn, closer, further, darker other decks. Off puts the 2D map back with every setting as it was; the map itself is never changed. Optional: 3D by itself aboard a ship, 2D again when you leave. Typed: map3d.",
-  "The Map tab has a small 2D | 3D button in its top left corner that flips the map (move it to the top right or hide it on Ships > Ship maps). For both at once, 'pop-out map' opens a second map window that follows you around: click its own 3D button once."
+  "3D map: every ship with a picture gets a see-through hull, glowing outlines of its shape between and around its decks, so it reads like a hologram of the ship with the rooms inside. 3D only: the 2D map stays exactly as it was. Switch it on Ships > Ship maps (or 'map3d hull off').",
+  "The Star Galleon, Vigo and JumpMaster pictures are redrawn to fit the rooms as they're really mapped (the Star Galleon's was far too small), and they now show under every deck of the ship, not just the entrance.",
+  "The Map tab's 2D | 3D button moved to the bottom left: at the top it covered the room name the 3D view writes there.",
+  "Fix: if your accent settings file got damaged (for example Mudlet closing in the middle of saving it), every say, sayto, whisper and so on showed a red 'Omi Accent ... attempt to index field data' error. Now the damaged file is kept aside as omi_accent.dat.broken, the accent starts fresh (off) and tells you once. A '!' line no longer goes out with the '!' when something goes wrong (the game read it as 'repeat my last command'), and a hail reply is never stopped by the accent."
  ],
  "history": [
+  [
+   "1.23.0",
+   "2026-11-02",
+   [
+    "3D map: every ship with a picture gets a see-through hull, glowing outlines of its shape between and around its decks, so it reads like a hologram of the ship with the rooms inside. 3D only: the 2D map stays exactly as it was. Switch it on Ships > Ship maps (or 'map3d hull off').",
+    "The Star Galleon, Vigo and JumpMaster pictures are redrawn to fit the rooms as they're really mapped (the Star Galleon's was far too small), and they now show under every deck of the ship, not just the entrance.",
+    "The Map tab's 2D | 3D button moved to the bottom left: at the top it covered the room name the 3D view writes there.",
+    "Fix: if your accent settings file got damaged (for example Mudlet closing in the middle of saving it), every say, sayto, whisper and so on showed a red 'Omi Accent ... attempt to index field data' error. Now the damaged file is kept aside as omi_accent.dat.broken, the accent starts fresh (off) and tells you once. A '!' line no longer goes out with the '!' when something goes wrong (the game read it as 'repeat my last command'), and a hail reply is never stopped by the accent."
+   ]
+  ],
   [
    "1.22.0",
    "2026-11-02",
@@ -376,7 +388,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-02.1529",
-  "notes": "Map update: places mapped on 2 November since the morning update"
+  "version": "2026-11-02.1725",
+  "notes": "Map from 2026-11-02 evening, with the see-through 3D ship hulls"
  }
 }
