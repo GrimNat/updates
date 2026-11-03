@@ -2,6 +2,23 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.31.0 (2026-11-03)
+- New training drill: TLC Science Study (Automation > Training, or 'tlcstudy'). Stand in the camera hall of the Tarintha Learning Center on Ithor (the Lobby, then west) and Start: it sends 'pra science', then in each of the 18 study halls studies the item until you're an adept of its science (100%), walks to the next hall and finishes in the [Library].
+- A hall is only skipped when its science is known and already at 100%, or when you press Skip hall (next to Pause / Resume; typed: tlcstudy skip). Study is luck, so it never gives up on its own. Each hall's science is learned the first time the TLC says 'insight into your <science> studies' there (the camera = advanced electronics and the chemistry set = chemistry are known already).
+- The page lists every hall with its science (or 'not seen yet'), where you are in it, and what this run did there. If it can't find a hall's item it asks: 'tlcstudy item <word>' in that hall, and it remembers the word. 'You are not ready to learn this skill' pauses it (Skip or Resume).
+- It walks from room to room, and walking isn't on the game's bot list, so it only runs at the screen (not in bot mode). It empties AutoStudy's list at the start so the two don't fight over the study command.
+- The corner timer's study bar now also ends on 'After some time studying you feel you know more.'
+
+## v1.30.0 (2026-11-03)
+- Ship DB keeps every ship's full history: nothing is dropped any more (only the last 20 places were kept). Seeing a ship again with nothing changed counts on the same entry (when you first and last saw it there, how many times, how: in the room, from the cockpit, radar); any change starts a new entry: another place, taking off (launching), another hull under that name, or back after it had left. Back on a pad without it, its entry says 'gone by' and when.
+- Every ship has a 'full history' page (link on its file and in Dossiers, or 'shipdb history <ship>'): every entry and every locateship answer, newest first, changes and owner changes marked; a rename you confirmed brings the old name's entries along. All of it is also in omi_ships\\history.tsv, ready for Excel.
+- Once, shortly after loading, your recordings (omi_logs) are read back to the first one: the places ships were seen before the Ship DB kept them all, radar sightings to the second, and old locateship answers (the same answer twice counts once; owners are worked out again from all of them). It works in the background and says what it found.
+- In space near one planet, the cockpit view and radar count as one place (they made two before), and a cockpit view never marks a ship gone (it leaves out the ship you're in). A pad whose name ends in a space (Alpha Pad at Kala'uun) is now found from the cockpit too.
+
+## v1.29.0 (2026-11-03)
+- Writer: all 256 of the game's colours. '256 colours' (next to the colour swatches) opens a picker with the 16 basic colours, the full colour cube and the 24 greys; hover a square for its code, the game's name and hex code (as in 'view256'), click it and Ctrl+V puts it in your text. The colour you picked last is outlined.
+- Writer: 'Any colour #' takes a hex code (like 1EE896) and copies the game's code for it (&#1EE896, or the short &### code when it's one of the 256). Typed: writer palette.
+
 ## v1.28.0 (2026-11-03)
 - New: Writer (Character menu, or 'writer'). Write your description and history like in a word processor: type or paste in a big box, and see beside it exactly how the game will show it, in its colours and at its 80 columns, with lines and characters counted against the game's limits.
 - Writer helpers: colour swatches (click, then Ctrl+V), Paste from Mudlet (right-click > Copy as HTML keeps the colours), Copy / Copy plain, Fit 80, Reflow, Undo, Notepad (edit in your computer's own editor), and the history templates from HELP BIOTEMPLATE.
