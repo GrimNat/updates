@@ -2,6 +2,13 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.26.0 (2026-11-02)
+- Ship upgrade limits: type 'upgradeship <ship> limits' in a garage once and the ranges are kept by themselves (how low and how high every stat, weapon and cargo pod can go on that hull). Ships > Ship Stats now shows each stat's range, a '+N' never goes past the max ('at its max' / 'only +3 to the max'), how many more fit, and what maxing the whole ship would cost in quota and credits. A 'Read limits' button asks the game for you.
+- Ranges are learned per ship type too, so a ship you haven't read yet shows its type's ranges. Known from the start: YT-1000, JumpMaster 5000, Star Galleon and the AEG-77 Vigo; new types you read are shared with friends in the next update. Any limits you looked at before this update are found in your recordings by themselves.
+- Cargo pods: every pod holds 500 units (9 pods = 4,500). Ship Stats shows a ship's pods and hold, and what +N pods would add to each trip.
+- Renaming your ship (renameship) moves everything we knew about it (its info, readouts and limits) to the new name.
+- Typed: shiplimits (opens Ship Stats), shiplimits <ship or type>, shiplimits read <ship>, shiplimits list.
+
 ## v1.25.0 (2026-11-02)
 - The left-hand lists of Datanet, Help & guides, Journal, Shops, Trade, Storage and Dossiers are real lists now: icons, counts on the right, the page you're on lit, folders (Help groups, Shops planets) open with an arrow, and they scroll with the mouse wheel and a slim scroll bar in your theme's colours.
 - Trade routes: a proper chart. Each route has a bar for its credits an hour, its numbers in columns, a fuel or permit mark when it needs one, and a Fly button that hands it to Auto Cargo. Hover a route for its legs (what to buy where).
