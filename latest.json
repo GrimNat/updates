@@ -1,13 +1,36 @@
 {
- "version": "1.26.1",
+ "version": "1.28.0",
  "date": "2026-11-03",
  "notes": [
-  "Trade: prices under 10 credits are read now. The game writes them as \"( Price per unit: 6.71 )\" with a space, and those were skipped, so the cheapest goods were missing, like water on Mon Cala (6.71) and Naboo (6.00) during today's Coruscant water TradeCast. Scan again (trade scan) to pick them up.",
-  "Accent: paths and file names (MS:/public/gear/over, notes.txt, some_name) go out exactly as typed. Before, a word inside a datanet path could be changed.",
-  "Accent: a voice can have words that only change when they stand on their own, as an answer (\"No.\" or \"No, ...\" but not \"no training\"). 'accent list' shows them.",
-  "Accent: a word swapped for one that starts with an apostrophe keeps its capital at the start of a sentence ('Preciate it! 'Bout time.)."
+  "New: Writer (Character menu, or 'writer'). Write your description and history like in a word processor: type or paste in a big box, and see beside it exactly how the game will show it, in its colours and at its 80 columns, with lines and characters counted against the game's limits.",
+  "Writer helpers: colour swatches (click, then Ctrl+V), Paste from Mudlet (right-click > Copy as HTML keeps the colours), Copy / Copy plain, Fit 80, Reflow, Undo, Notepad (edit in your computer's own editor), and the history templates from HELP BIOTEMPLATE.",
+  "Load from game reads your current description or history into the box (nothing changes in the game); Save to game types it all into the game's buffer and saves it.",
+  "Writer > Colours: paste Mudlet's Copy as HTML (or text with codes) and get the game's colour codes or plain text, ready to copy.",
+  "While any writing buffer is open in the game (a note, a bug report, your description), commands from scripts wait until it closes, so Fly To, the Ship DB and the rest can't type into your text any more. Lines you type yourself go in as usual."
  ],
  "history": [
+  [
+   "1.28.0",
+   "2026-11-03",
+   [
+    "New: Writer (Character menu, or 'writer'). Write your description and history like in a word processor: type or paste in a big box, and see beside it exactly how the game will show it, in its colours and at its 80 columns, with lines and characters counted against the game's limits.",
+    "Writer helpers: colour swatches (click, then Ctrl+V), Paste from Mudlet (right-click > Copy as HTML keeps the colours), Copy / Copy plain, Fit 80, Reflow, Undo, Notepad (edit in your computer's own editor), and the history templates from HELP BIOTEMPLATE.",
+    "Load from game reads your current description or history into the box (nothing changes in the game); Save to game types it all into the game's buffer and saves it.",
+    "Writer > Colours: paste Mudlet's Copy as HTML (or text with codes) and get the game's colour codes or plain text, ready to copy.",
+    "While any writing buffer is open in the game (a note, a bug report, your description), commands from scripts wait until it closes, so Fly To, the Ship DB and the rest can't type into your text any more. Lines you type yourself go in as usual."
+   ]
+  ],
+  [
+   "1.27.0",
+   "2026-11-03",
+   [
+    "Trade routes show what to carry: under every route a small line lists each leg's cargo, where it's bought and sold and for how much, and the gain a unit (\"Water  Naboo 6.00 -> Ryloth 17.00  +11.00\"). A leg riding a TradeCast is gold with the signal icon.",
+    "More routes than fit? Page arrows in each card's title (\"< 1 / 23 >\") show the next ones; the page stays put when prices update, and a new sort starts at the best again.",
+    "Training: a Disguise drill. It applies the disguise slot you pick (74 s, one canister of home repair putty a try), takes it off after a success and goes again; after a failure it simply tries again. It looks first whether you're already wearing one.",
+    "Pick the slot on Automation > Training: 'Read slots' fills in your disguises (name, race, saved) and how many you can have; the page also shows about how much putty you have left. Typed: training disguise <slot>, training slot <n>, training slots.",
+    "Disguise isn't on the game's bot list, so this drill only runs at the screen (it won't start in bot mode). The corner timer shows a bar for each try."
+   ]
+  ],
   [
    "1.26.1",
    "2026-11-03",
@@ -436,7 +459,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-03.1041",
-  "notes": "Newly walked rooms (2026-11-03 10:41)"
+  "version": "2026-11-03.1255",
+  "notes": "Map updates (2026-11-03 12:55)"
  }
 }
