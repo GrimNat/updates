@@ -2,6 +2,12 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.26.1 (2026-11-03)
+- Trade: prices under 10 credits are read now. The game writes them as "( Price per unit: 6.71 )" with a space, and those were skipped, so the cheapest goods were missing, like water on Mon Cala (6.71) and Naboo (6.00) during today's Coruscant water TradeCast. Scan again (trade scan) to pick them up.
+- Accent: paths and file names (MS:/public/gear/over, notes.txt, some_name) go out exactly as typed. Before, a word inside a datanet path could be changed.
+- Accent: a voice can have words that only change when they stand on their own, as an answer ("No." or "No, ..." but not "no training"). 'accent list' shows them.
+- Accent: a word swapped for one that starts with an apostrophe keeps its capital at the start of a sentence ('Preciate it! 'Bout time.).
+
 ## v1.26.0 (2026-11-02)
 - Ship upgrade limits: type 'upgradeship <ship> limits' in a garage once and the ranges are kept by themselves (how low and how high every stat, weapon and cargo pod can go on that hull). Ships > Ship Stats now shows each stat's range, a '+N' never goes past the max ('at its max' / 'only +3 to the max'), how many more fit, and what maxing the whole ship would cost in quota and credits. A 'Read limits' button asks the game for you.
 - Ranges are learned per ship type too, so a ship you haven't read yet shows its type's ranges. Known from the start: YT-1000, JumpMaster 5000, Star Galleon and the AEG-77 Vigo; new types you read are shared with friends in the next update. Any limits you looked at before this update are found in your recordings by themselves.

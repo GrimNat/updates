@@ -1,14 +1,23 @@
 {
- "version": "1.26.0",
- "date": "2026-11-02",
+ "version": "1.26.1",
+ "date": "2026-11-03",
  "notes": [
-  "Ship upgrade limits: type 'upgradeship <ship> limits' in a garage once and the ranges are kept by themselves (how low and how high every stat, weapon and cargo pod can go on that hull). Ships > Ship Stats now shows each stat's range, a '+N' never goes past the max ('at its max' / 'only +3 to the max'), how many more fit, and what maxing the whole ship would cost in quota and credits. A 'Read limits' button asks the game for you.",
-  "Ranges are learned per ship type too, so a ship you haven't read yet shows its type's ranges. Known from the start: YT-1000, JumpMaster 5000, Star Galleon and the AEG-77 Vigo; new types you read are shared with friends in the next update. Any limits you looked at before this update are found in your recordings by themselves.",
-  "Cargo pods: every pod holds 500 units (9 pods = 4,500). Ship Stats shows a ship's pods and hold, and what +N pods would add to each trip.",
-  "Renaming your ship (renameship) moves everything we knew about it (its info, readouts and limits) to the new name.",
-  "Typed: shiplimits (opens Ship Stats), shiplimits <ship or type>, shiplimits read <ship>, shiplimits list."
+  "Trade: prices under 10 credits are read now. The game writes them as \"( Price per unit: 6.71 )\" with a space, and those were skipped, so the cheapest goods were missing, like water on Mon Cala (6.71) and Naboo (6.00) during today's Coruscant water TradeCast. Scan again (trade scan) to pick them up.",
+  "Accent: paths and file names (MS:/public/gear/over, notes.txt, some_name) go out exactly as typed. Before, a word inside a datanet path could be changed.",
+  "Accent: a voice can have words that only change when they stand on their own, as an answer (\"No.\" or \"No, ...\" but not \"no training\"). 'accent list' shows them.",
+  "Accent: a word swapped for one that starts with an apostrophe keeps its capital at the start of a sentence ('Preciate it! 'Bout time.)."
  ],
  "history": [
+  [
+   "1.26.1",
+   "2026-11-03",
+   [
+    "Trade: prices under 10 credits are read now. The game writes them as \"( Price per unit: 6.71 )\" with a space, and those were skipped, so the cheapest goods were missing, like water on Mon Cala (6.71) and Naboo (6.00) during today's Coruscant water TradeCast. Scan again (trade scan) to pick them up.",
+    "Accent: paths and file names (MS:/public/gear/over, notes.txt, some_name) go out exactly as typed. Before, a word inside a datanet path could be changed.",
+    "Accent: a voice can have words that only change when they stand on their own, as an answer (\"No.\" or \"No, ...\" but not \"no training\"). 'accent list' shows them.",
+    "Accent: a word swapped for one that starts with an apostrophe keeps its capital at the start of a sentence ('Preciate it! 'Bout time.)."
+   ]
+  ],
   [
    "1.26.0",
    "2026-11-02",
@@ -427,7 +436,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-02.2338",
-  "notes": "Tonight's newly walked rooms (2026-11-02 23:38)"
+  "version": "2026-11-03.1041",
+  "notes": "Newly walked rooms (2026-11-03 10:41)"
  }
 }
