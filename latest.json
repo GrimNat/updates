@@ -1,10 +1,25 @@
 {
- "version": "1.34.0",
+ "version": "1.35.0",
  "date": "2026-11-04",
  "notes": [
-  "Recording now also keeps everything the game sends behind the scenes (GMCP: your ship's position about every second, its speed and energy, your vitals, the room and more) in its own file, omi_logs\\\\gmcp\\\\, named like that session's log. Each line has the time to the millisecond; a kind of message is written in full the first time, then only what changed. It follows rec: nothing from the login screen, and 'rec off' stops both."
+  "Your ship's own numbers from the game: sitting in a cockpit, the game sends the ship's top speed, fuel tank, hull and shields, and Flight uses them (Clear to jump timer, fuel range ring, Fly To and Auto Cargo routes) instead of an old 'info' or the stock numbers for its type. The fuel aboard is now read every couple of seconds instead of estimated, and each ship learns its own fuel per parsec from its jumps.",
+  "Ships launching or arriving right behind you: they count toward 'clear to jump' the moment the game announces them, a radar is sent to see where they're heading, and if you'd just been told you're clear, the Clear to jump bar comes back until you really are. Moving ships are tracked between radars, so the bar knows when one is flying along with you.",
+  "Cash without typing score: the Bank keeps your cash on hand up to date from what the game sends after score, gold and bank moves, and in between from sales (minus their tax), cargo buys, refuels, taxis, shop buys, wages, loot and gifts.",
+  "GMCP field list: everything the game sends behind the scenes is now listed for the long run, each field once, with when it first showed up and how often it changes. 'gmcp watch new' prints only fields never seen before (it stays on across restarts, so you can leave it on while you train, fight and fly), 'gmcp fields' writes the list to omi_gmcp_fields.txt. Both are links under 'gmcp'.",
+  "Fixed: Ships > Landing Pads and Ship Stats no longer run past the bottom of the window. Landing Pads fills the window with planet cards and puts the rest on more pages (arrows at the top right). Ship Stats' ship list shows as many rows as fit above What if and Cargo run and pages the rest (it opens on the page of the ship you picked), and its stats table pages above the notes under it."
  ],
  "history": [
+  [
+   "1.35.0",
+   "2026-11-04",
+   [
+    "Your ship's own numbers from the game: sitting in a cockpit, the game sends the ship's top speed, fuel tank, hull and shields, and Flight uses them (Clear to jump timer, fuel range ring, Fly To and Auto Cargo routes) instead of an old 'info' or the stock numbers for its type. The fuel aboard is now read every couple of seconds instead of estimated, and each ship learns its own fuel per parsec from its jumps.",
+    "Ships launching or arriving right behind you: they count toward 'clear to jump' the moment the game announces them, a radar is sent to see where they're heading, and if you'd just been told you're clear, the Clear to jump bar comes back until you really are. Moving ships are tracked between radars, so the bar knows when one is flying along with you.",
+    "Cash without typing score: the Bank keeps your cash on hand up to date from what the game sends after score, gold and bank moves, and in between from sales (minus their tax), cargo buys, refuels, taxis, shop buys, wages, loot and gifts.",
+    "GMCP field list: everything the game sends behind the scenes is now listed for the long run, each field once, with when it first showed up and how often it changes. 'gmcp watch new' prints only fields never seen before (it stays on across restarts, so you can leave it on while you train, fight and fly), 'gmcp fields' writes the list to omi_gmcp_fields.txt. Both are links under 'gmcp'.",
+    "Fixed: Ships > Landing Pads and Ship Stats no longer run past the bottom of the window. Landing Pads fills the window with planet cards and puts the rest on more pages (arrows at the top right). Ship Stats' ship list shows as many rows as fit above What if and Cargo run and pages the rest (it opens on the page of the ship you picked), and its stats table pages above the notes under it."
+   ]
+  ],
   [
    "1.34.0",
    "2026-11-04",
@@ -512,7 +527,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-04.0129",
-  "notes": "Map as of 2026-11-04 01:29"
+  "version": "2026-11-04.0224",
+  "notes": "Map as of 2026-11-04 02:24"
  }
 }
