@@ -2,6 +2,13 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.37.0 (2026-11-04)
+- New training drill: Turbolift security (Automation > Training, or 'training lift'). Stand in a city turbolift and it sends 'secure turbolift', then 'slice turbolift', over and over (about 90 s a try). If the lift is already secure it slices first. Secure and slice are on the bot list, so bot mode works. A ship's own lift can't be secured: the drill pauses and shows the game's line.
+
+## v1.36.0 (2026-11-04)
+- New training drill: Ship security (Automation > Training, or 'training ship'). In your ship's cockpit it sends 'secure ship', then 'slice ship', over and over (about 90 s a try). When the ship's own security beats yours it slices first, a failed slice tries again, and a try cut off by a command starts again. Secure and slice are on the bot list, so bot mode works. The corner timer has a Slicing bar now too.
+- Bot time left is read from what the game sends every second while you bot, so it's right after 'Botting resumed.' too (that line doesn't say how much is left). With 'Start again after the cooldown' on, a resumed bot session now also picks up again after its cooldown.
+
 ## v1.35.1 (2026-11-04)
 - Behind the scenes: Omi Flight is now three scripts in Ships (Omi Flight, Omi Get Clear, Omi Ship Stats) so each stays a size that's easy to work on. Nothing changes in how anything works.
 
