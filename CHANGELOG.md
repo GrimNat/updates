@@ -2,6 +2,12 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.33.0 (2026-11-03)
+- New: Character > Gear & goals > All gear: every item in Merr-Sonn's gear directory (102), slot by slot on the left, each slot's items on the right with their benefits and where to get them: the cheapest NPC vendor seen in your shop lists. Player shops buy from NPC vendors and resell for far more, so a shop asking 4x the cheapest price seen is guessed a player shop (Player?); click a shop's kind to set it yourself. Items no shop has shown yet say where to start looking, and 'Your note' keeps what you find. Typed: gear, gear all [slot], gear note <item> = <where>, gear shop <shop> = npc | player | guess.
+- New: GMCP probe, to see everything the game sends behind the scenes (room, character, ship and more). 'gmcp' lists each kind of message with how often it comes and how many fields it holds (click one to see them all), 'gmcp all' shows every field, 'gmcp watch' prints each change as it arrives (again to stop; 'gmcp watch Char.Vitals' for just one), 'gmcp save' writes it all to omi_gmcp_probe.txt.
+- 'util flyto', 'util lanes' (or 'util galaxy') and 'util train' open those pages too, and 'util help' lists every page.
+- Fixed: an open Trade window shows new prices after a scan by itself (it used to need the toolbar to know it was open).
+
 ## v1.32.0 (2026-11-03)
 - Journal: talks with other clans have their own list, People > Journal > Clan comms > External Transmissions. Each '[Incoming Transmission from ...]' or '[Outgoing Transmission to ...]' shows with its message on one line, with how many went in and out and with which clans. Clan comms keeps your own clan's talk. Your whole backlog is sorted in already, and new ones land there by themselves. Faces and People no longer list 'Incoming Transmission from ...' as if it were a person.
 - Ship DB: owners' names no longer have '[d]' stuck after them. Someone you have a dossier on gets a small file icon in the lists (pink name on the text pages), and a ship's page has an 'open dossier' link next to its owner.
