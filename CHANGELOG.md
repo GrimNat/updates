@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.34.0 (2026-11-04)
+- Recording now also keeps everything the game sends behind the scenes (GMCP: your ship's position about every second, its speed and energy, your vitals, the room and more) in its own file, omi_logs\\gmcp\\, named like that session's log. Each line has the time to the millisecond; a kind of message is written in full the first time, then only what changed. It follows rec: nothing from the login screen, and 'rec off' stops both.
+
 ## v1.33.0 (2026-11-03)
 - New: Character > Gear & goals > All gear: every item in Merr-Sonn's gear directory (102), slot by slot on the left, each slot's items on the right with their benefits and where to get them: the cheapest NPC vendor seen in your shop lists. Player shops buy from NPC vendors and resell for far more, so a shop asking 4x the cheapest price seen is guessed a player shop (Player?); click a shop's kind to set it yourself. Items no shop has shown yet say where to start looking, and 'Your note' keeps what you find. Typed: gear, gear all [slot], gear note <item> = <where>, gear shop <shop> = npc | player | guess.
 - New: GMCP probe, to see everything the game sends behind the scenes (room, character, ship and more). 'gmcp' lists each kind of message with how often it comes and how many fields it holds (click one to see them all), 'gmcp all' shows every field, 'gmcp watch' prints each change as it arrives (again to stop; 'gmcp watch Char.Vitals' for just one), 'gmcp save' writes it all to omi_gmcp_probe.txt.
