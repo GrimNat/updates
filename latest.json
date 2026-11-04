@@ -1,14 +1,17 @@
 {
- "version": "1.35.0",
+ "version": "1.35.1",
  "date": "2026-11-04",
  "notes": [
-  "Your ship's own numbers from the game: sitting in a cockpit, the game sends the ship's top speed, fuel tank, hull and shields, and Flight uses them (Clear to jump timer, fuel range ring, Fly To and Auto Cargo routes) instead of an old 'info' or the stock numbers for its type. The fuel aboard is now read every couple of seconds instead of estimated, and each ship learns its own fuel per parsec from its jumps.",
-  "Ships launching or arriving right behind you: they count toward 'clear to jump' the moment the game announces them, a radar is sent to see where they're heading, and if you'd just been told you're clear, the Clear to jump bar comes back until you really are. Moving ships are tracked between radars, so the bar knows when one is flying along with you.",
-  "Cash without typing score: the Bank keeps your cash on hand up to date from what the game sends after score, gold and bank moves, and in between from sales (minus their tax), cargo buys, refuels, taxis, shop buys, wages, loot and gifts.",
-  "GMCP field list: everything the game sends behind the scenes is now listed for the long run, each field once, with when it first showed up and how often it changes. 'gmcp watch new' prints only fields never seen before (it stays on across restarts, so you can leave it on while you train, fight and fly), 'gmcp fields' writes the list to omi_gmcp_fields.txt. Both are links under 'gmcp'.",
-  "Fixed: Ships > Landing Pads and Ship Stats no longer run past the bottom of the window. Landing Pads fills the window with planet cards and puts the rest on more pages (arrows at the top right). Ship Stats' ship list shows as many rows as fit above What if and Cargo run and pages the rest (it opens on the page of the ship you picked), and its stats table pages above the notes under it."
+  "Behind the scenes: Omi Flight is now three scripts in Ships (Omi Flight, Omi Get Clear, Omi Ship Stats) so each stays a size that's easy to work on. Nothing changes in how anything works."
  ],
  "history": [
+  [
+   "1.35.1",
+   "2026-11-04",
+   [
+    "Behind the scenes: Omi Flight is now three scripts in Ships (Omi Flight, Omi Get Clear, Omi Ship Stats) so each stays a size that's easy to work on. Nothing changes in how anything works."
+   ]
+  ],
   [
    "1.35.0",
    "2026-11-04",
@@ -527,7 +530,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-04.0224",
-  "notes": "Map as of 2026-11-04 02:24"
+  "version": "2026-11-04.0315",
+  "notes": "Map as of 2026-11-04 03:15"
  }
 }

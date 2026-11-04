@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.35.1 (2026-11-04)
+- Behind the scenes: Omi Flight is now three scripts in Ships (Omi Flight, Omi Get Clear, Omi Ship Stats) so each stays a size that's easy to work on. Nothing changes in how anything works.
+
 ## v1.35.0 (2026-11-04)
 - Your ship's own numbers from the game: sitting in a cockpit, the game sends the ship's top speed, fuel tank, hull and shields, and Flight uses them (Clear to jump timer, fuel range ring, Fly To and Auto Cargo routes) instead of an old 'info' or the stock numbers for its type. The fuel aboard is now read every couple of seconds instead of estimated, and each ship learns its own fuel per parsec from its jumps.
 - Ships launching or arriving right behind you: they count toward 'clear to jump' the moment the game announces them, a radar is sent to see where they're heading, and if you'd just been told you're clear, the Clear to jump bar comes back until you really are. Moving ships are tracked between radars, so the bar knows when one is flying along with you.
