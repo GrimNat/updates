@@ -1,10 +1,17 @@
 {
- "version": "1.37.0",
+ "version": "1.37.1",
  "date": "2026-11-04",
  "notes": [
-  "New training drill: Turbolift security (Automation > Training, or 'training lift'). Stand in a city turbolift and it sends 'secure turbolift', then 'slice turbolift', over and over (about 90 s a try). If the lift is already secure it slices first. Secure and slice are on the bot list, so bot mode works. A ship's own lift can't be secured: the drill pauses and shows the game's line."
+  "Fixed: Dossiers re-read the whole clan comms log every time Mudlet started, so people's rank history filled up with the same old ranks over and over, and voices you had named came back as unnamed. It's read once now, as intended."
  ],
  "history": [
+  [
+   "1.37.1",
+   "2026-11-04",
+   [
+    "Fixed: Dossiers re-read the whole clan comms log every time Mudlet started, so people's rank history filled up with the same old ranks over and over, and voices you had named came back as unnamed. It's read once now, as intended."
+   ]
+  ],
   [
    "1.37.0",
    "2026-11-04",
@@ -545,7 +552,7 @@
   ]
  ],
  "map": {
-  "version": "2026-11-04.1036",
-  "notes": "Map from 2026-11-04 10:36"
+  "version": "2026-11-04.1126",
+  "notes": "Map as of 2026-11-04 11:26"
  }
 }

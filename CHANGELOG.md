@@ -2,6 +2,9 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.37.1 (2026-11-04)
+- Fixed: Dossiers re-read the whole clan comms log every time Mudlet started, so people's rank history filled up with the same old ranks over and over, and voices you had named came back as unnamed. It's read once now, as intended.
+
 ## v1.37.0 (2026-11-04)
 - New training drill: Turbolift security (Automation > Training, or 'training lift'). Stand in a city turbolift and it sends 'secure turbolift', then 'slice turbolift', over and over (about 90 s a try). If the lift is already secure it slices first. Secure and slice are on the bot list, so bot mode works. A ship's own lift can't be secured: the drill pauses and shows the game's line.
 
