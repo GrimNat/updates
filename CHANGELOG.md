@@ -2,6 +2,62 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.44.0 (2026-11-10)
+- New: the Datapad keeps track of what changes on the datanet. When a crawl with 'Read saved pages again' on, or 'read again' on a page, finds a page different from your copy, your old copy is kept and the change goes on the new Changes page (the Changes button, top right, or 'dpad changes'): when it was seen, which page, and how many lines were added, removed and edited.
+- Click a change to see it: added lines in green with a +, removed lines in red with a -, and an edited line shown once with its old words struck out and the new ones after them. Older and Newer step through a page's earlier changes, and a page that has changed says so at its top.
+
+## v1.43.0 (2026-11-10)
+- The Datapad's Crawl button now opens a Crawl page with a control for everything: a check box per clan, switches for reading saved pages again (to pick up changes) and for members-only pages, and Start, Stop, Resume and Start over buttons with a progress bar. Before, it could only start the plain crawl.
+
+## v1.42.0 (2026-11-09)
+- New: a Crawl button on the Datapad (top right). It reads from the game every page your saved pages link to that you don't have yet. It says Stop crawl while it runs and Resume crawl after a stop, and the Datapad's bottom line shows how far it is. It replaces the 'Fetch from the game' links on the home page.
+- A crawl now also follows the links of pages you read yourself, not only what each clan's home page leads to.
+
+## v1.41.0 (2026-11-09)
+- The Datapad keeps every datanet page you read in the game. Type 'datanet MS:/public/home' or click a datanet link: the page is saved and opens in the Datapad. Before, only a crawl saved pages.
+- In the Datapad, a link to a page that isn't saved yet reads it from the game, and every page has a 'read again' link for a fresh copy. Both use datapad charge, like reading it yourself.
+- The old DataNet package isn't needed any more: if you still have it, it's switched off. Its 'showdata' and 'hidedata' now open and close the Datapad.
+- Fixed: the crawler saved the game's 'Access Denied' as if it were a page.
+
+## v1.40.0 (2026-11-09)
+- Auto Cargo no longer runs you past the 2,000,000 credits you can carry (past that the game drops the rest on the floor). Each stop it reads your gold and looks a whole loop ahead. If you'd go over, it walks to the nearest bank it knows a way to, deposits into the accounts with the most room, walks back and carries on, leaving enough to keep buying.
+- A pad with no mapped way to a bank (a locked door, a lift) leaves it to a later stop. If this very sale would go over, it pauses before selling and tells you. Settings are on the Auto Cargo page's Credits card, or 'autocargo bank on|off' and 'autocargo keep <credits>|auto'.
+- A room where a deposit or withdrawal works now counts as a bank, even if its title doesn't say [Bank].
+- Auto Cargo stops by itself and stays stopped until you click Start: right there when someone else says your name or sends you a tell, and at the next planet after 2 hours since you last clicked Start or Resume. Both are on the page's Stops by itself card, or 'autocargo name on|off' and 'autocargo hours <n>|off'.
+
+## v1.39.0 (2026-11-09)
+- Logs are easier to read and smaller: the same line several times in a row is written once with a count (x12 in the Journal), prompts are saved plain, and Everything else starts a new file each month. Older months are links on its page, and a search offers them at its end.
+- New: Character > Voice, a page for your accent: on or off, style, strength, your word swaps and a box to try a line. A bare 'accent' opens it.
+- New: links on the Datapad's home page to fetch pages from the game (all clans, stop, resume), so there's no need to type dncrawl.
+- One line when the profile loads: the OmiLOTJ version, not a 'Loaded' line from every script.
+- Fixed: the datanet crawler works with any prompt (with another prompt it lost every page as missing), keeps a page it has read when chat runs on, and says so when it can't save one.
+- Fixed: a chat line mentioning 'not encrypted' can't move the decrypt drill on.
+- Less work in the background: the GMCP field list only runs if you turn it on ('gmcp fields on' or 'gmcp watch new'), the corner timers only redraw what changed and stop rising over open windows, and the Ship DB, trade scans and lockers write their files less often.
+- Old downloaded packages and old Galaxy pictures now clean themselves up.
+
+## v1.38.0 (2026-11-09)
+- New: Automation > Crafting, one place for building ships, making, enhancing and stitching armor, repairing gear and craft loops, with a tab and a list for each. Every old typed command still works (autobuildship, aadd, eadd, naaddm, autorepair, craft, mclothing...). It replaces Autobuildship, the LotJ Armor package, Autorepair and the old crafting scripts: the armor loops never really ran, and building could go round for ever with nothing on the floor. Lists are saved now. Not tried in the game yet: tell me what the game says if a job pauses.
+- While you're botting, building ships never takes or drops parts: those commands aren't on the game's bot list (help botting), and Autobuildship sent them. It works from what you carry and pauses when you run out.
+- Repairs now put your gear back on with wear (hold only works for held things like a datapad).
+- New: a study queue on Automation > Training, in place of AutoStudy. studyadd, studystart and the rest still work, the list is saved, and nothing happens unless the queue is running: no more error on every study or a blind 'afk' at the end of a bot cooldown.
+- New: Character > Combat, in place of CombatStats: accuracy, damage per hit, best hit, dodge rate. Its numbers are right now (it counted misses as hits and never counted 'You miss'), and speech with 'hits you' in it doesn't count.
+- New: Ships > Places: your speedwalk bookmarks (click to walk), this room's smart exits, taxis on or off, this room's symbol and colour on the map. 'sp' works as before.
+- Autoflight is gone: nothing could start it, and Fly To took over its job.
+- If you still have any of those old packages, their triggers and aliases are switched off so nothing answers twice. You can remove them.
+
+## v1.37.3 (2026-11-09)
+- Fixed: a semicolon in the Writer or in a hail reply stays in the line. Before, the line was cut in two there, and in a hail the second half went to the game as a command.
+- Fixed: Auto Cargo only tries another pad when the game really refuses one. Chat or a room's text with words like 'restricted' or 'too large' during a landing used to make it switch pads.
+- Fixed: when Auto Cargo finishes (Done, or Sell and stop) the page says idle, not Paused, and Resume can't send the last sale again.
+- Fixed: the docking panel only looks at lines about docking. A ship record's 'Dock:' row or a dockworkers line could mark you docked, and room text about docking clamps could pop the panel up.
+- Faster: the Journal's 'Everything else' page opens at once, its search takes less than half the time, and the People page has no wait. Search and that page no longer load the whole log into memory.
+- A damaged save file is now kept aside as <name>.broken-<date> and you're told, in every system. Twelve of them used to treat it as empty and overwrite it on the next save.
+- Fixed: 'rcc <colour>' colours a room's map symbol again (it errored), 'rcc off' puts it back, and 'rs <letter>' shows on the map right away.
+- Removed some old one-offs: the Dismantle Ship trigger, gmcpcheck (use 'gmcp') and kkk. Menus also stopped writing a debug file on every click.
+
+## v1.37.2 (2026-11-04)
+- Fixed: with 'Start again after the cooldown' on, Training didn't pick up again when the game's 30-minute bot cooldown ended. It now pauses the moment the game says your bot time is up (before, it could send one more command into the AFK and lose track of the cooldown), and carries on when the game says you may bot again.
+
 ## v1.37.1 (2026-11-04)
 - Fixed: Dossiers re-read the whole clan comms log every time Mudlet started, so people's rank history filled up with the same old ranks over and over, and voices you had named came back as unnamed. It's read once now, as intended.
 
