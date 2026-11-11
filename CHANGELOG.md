@@ -2,6 +2,38 @@
 
 Install: Mudlet > Package Manager > Install > OmiLOTJ.mpackage (over the old one). The version shows at the right end of the toolbar.
 
+## v1.49.0 (2026-11-11)
+- The Space panel now tracks missiles, torpedoes and rockets coming at you. Each one is drawn on the scope (and in the cockpit view) where it is, with its seconds to impact, and the line at the scope's bottom left says what lands first.
+- Chaff help: the Chaff button turns red when something lands within 15 seconds and your chaff won't still be up then, and is lit while chaff is up. One release lasts about 19 seconds and blows up whatever arrives meanwhile.
+- The Simulator drill now releases chaff by itself at that moment. If a release doesn't come out (none left) it stops trying until the next run.
+- Auto radar now sends 'radar projectiles' (the same ships and planets, plus every projectile), every 3 seconds while something is coming at you and right after a launch, still kept off the main screen. The Simulator drill uses these quiet radars too.
+- Fixed: lines the game counts, like 'Incoming rocket from ... [x2]' and 'The ship is hit by a rocket! [x2]', count as two.
+
+## v1.48.0 (2026-11-11)
+- The Space panel's weapons are bars now: each one fills while it recharges and says how long it has left, then turns green when the game says it's charged. The time is learned from your own fights, per weapon.
+- New: a Scan button on the Target card. It sends stat for your target and shows its shields and hull as bars, with how long ago you scanned it. When the game says its shields failed, its shield bar drops to 0. Its energy, speed and whom it targets are in the name's tooltip.
+- The Target card counts what your target fires at you. A scan that lists its missiles, torpedoes and rockets shows how many it has left; a ship you haven't scanned is taken as fully loaded for its kind (once you've scanned or looked at one), less what it fired.
+- The MISSILE INCOMING warning counts the missiles on their way and stays until the last one hits or blows up in your chaff (missiles take 11 to 16 seconds to land). Before, the first hit ended it.
+- Fixed: flight mode ends by itself when you leave the ship, so the map and chat go back to half and half when a simulator run ends.
+
+## v1.47.0 (2026-11-11)
+- New: flight mode. The Flight button on the Space tab (or 'space flight on') gives the tab about 70% of the right side; the chat stays below it, smaller, with all its tabs. Click it again to go back. It's off at every start.
+- New in flight mode: the cockpit view, the fight as seen out of the front of your ship. Ships ahead are drawn by their kind and get bigger as they come closer, your target sits in a bracket (amber while tracking, red once locked), and a ship beside or behind you is an arrow at the edge showing which way to turn. The stars swing past as the ship turns to a new course.
+- The view shows what happens: bolts when you fire, a red flash when you're hit, an explosion where a ship is destroyed, and a blinking MISSILE INCOMING while one is on its way.
+- Click to fly: click a ship in the view to turn to it and target it, or click empty space to set course that way.
+
+## v1.46.0 (2026-11-11)
+- The Space tab has a radar scope now, like the System tab's: you in the middle and every ship, planet and star of your last radar around you. A ship that targets you is red, your target has a ring, a small arrow says above or below you, and a white line shows the way you're flying (dashed while the ship is still turning). Click a ship on it to turn to it and target it; the two buttons in its corner zoom.
+- New: Auto radar, the chip at the scope's corner (or 'space radar on'). While the Space panel is showing it sends a radar every 6 seconds and keeps the answer off the main screen, so the scope stays current without the flood. A radar you type or click yourself shows as it always did. It never goes out while you're locking on.
+- The Space panel's buttons can't break your lock any more. Target turns to the ship first and then targets it, and anything you click during the 3 seconds of tracking waits and is sent the moment the lock is there. Chaff is the exception: it always goes at once.
+- The Simulator drill knows two more of the game's answers: nothing ready to fire, and a ship that's already gone.
+
+## v1.45.0 (2026-11-11)
+- New: a Space tab beside Map / System / Galaxy, for space fights. In a cockpit it shows bars for your shields, hull and energy, the ships around you (click one to target it), your target and its lock, a light per weapon (green = ready, amber = charging) and buttons for Target, Face, Fire, Recharge, Chaff and Radar. Pop out turns it into a window you can move and size, and the chat stays where it is. Type 'space' to open it.
+- The Space tab shows from the next start of Mudlet after this update; until then 'space' opens the window.
+- New drill on Automation > Training: Simulator, for the space combat skills. Stand in a holosimulator pod whose instructions say 'join fighter', pick Simulator and press Start (or type 'training sim'). It joins and starts the fighter scenario, and for each drone turns to it, targets it, waits for the lock and fires whenever a gun is charged, recharging the shields between drones. When the ship is destroyed it joins again, until you press Stop.
+- Space combat isn't on the bot list, so the Simulator drill only runs at the screen, with bot mode off. It never sends a fight command outside the simulator, and it pauses on anything it doesn't know.
+
 ## v1.44.0 (2026-11-10)
 - New: the Datapad keeps track of what changes on the datanet. When a crawl with 'Read saved pages again' on, or 'read again' on a page, finds a page different from your copy, your old copy is kept and the change goes on the new Changes page (the Changes button, top right, or 'dpad changes'): when it was seen, which page, and how many lines were added, removed and edited.
 - Click a change to see it: added lines in green with a +, removed lines in red with a -, and an edited line shown once with its old words struck out and the new ones after them. Older and Newer step through a page's earlier changes, and a page that has changed says so at its top.
